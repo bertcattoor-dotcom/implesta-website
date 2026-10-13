@@ -46,7 +46,8 @@ export const company = {
     billing: 'Monthly, or yearly with two months free',
     minimumSeats: 'At least 5 full users. Team members have no minimum',
     onboarding: 'Setup, one import from our spreadsheet templates, a training session per role and 30 days of support are included. Moving history out of another system is quoted separately',
-    contract: '[[Contract length and notice period]]',
+    contract: 'Monthly billing: cancel any time with one month\'s notice. Yearly billing: 12 months, renewing automatically unless cancelled 30 days before the renewal date. Founding customers commit to 12 months',
+    payment: 'By invoice, payable by bank transfer within 30 days',
     foundingOffer: 'Founding customers: our first 5 customers pay half price for their first 12 months, in exchange for feedback and a reference.',
     // The worked example on the pricing page. Change the numbers here, never in the content.
     example: { fullUsers: 8, teamMembers: 34 },

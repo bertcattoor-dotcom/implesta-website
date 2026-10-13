@@ -34,7 +34,7 @@
       { "q": "Is onboarding included?", "a": "{onboarding}." },
       { "q": "Is there a minimum?", "a": "{minimumSeats}." },
       { "q": "How long is the contract, and can we cancel?", "a": "{contract}." },
-      { "q": "How do you invoice us?", "a": "Monthly or yearly in advance, by [[invoice or direct debit]]." }
+      { "q": "How do you invoice us?", "a": "Monthly or yearly in advance. {payment}." }
     ]
   },
   "final": {
