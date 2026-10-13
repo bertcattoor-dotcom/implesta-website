@@ -25,6 +25,9 @@ export const company = {
     role: 'Founder',
     linkedin: null, // personal LinkedIn URL, used on About and in structured data when set
     photo: null, // e.g. '/brand/bert-cattoor.jpg' once the photo is added to public/brand/
+    // Professional photos arrive late Nov 2026 (session on 16 Nov). Until then the site
+    // launches without a photo. Set `photo` when it arrives; this flag then no longer matters.
+    launchWithoutPhoto: true,
   },
 
   // Booking: the Cal.com event Implesta uses for demos, e.g. 'implesta/demo'.

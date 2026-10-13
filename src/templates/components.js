@@ -152,6 +152,8 @@ export function nextCard(lang, target, ui) {
 
 export function founderPhoto(className = 'founder__photo') {
   if (company.founder.photo) return html`<img class="${className}" src="${esc(company.founder.photo)}" alt="${esc(company.founder.name)}" width="400" height="480" loading="lazy">`;
+  // Launching before the photo exists: leave the slot out; the layouts close up around it.
+  if (company.founder.launchWithoutPhoto) return '';
   return html`<div class="${className} ${className}--placeholder"><mark class="todo" data-todo>Photo of ${esc(company.founder.name)}</mark></div>`;
 }
 
