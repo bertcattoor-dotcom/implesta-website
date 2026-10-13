@@ -8,15 +8,18 @@
   "lead": "The facts your finance and IT leads will ask for, in one place.",
   "items": [
     { "term": "Where data is stored", "value": "{hosting}." },
+    { "term": "Your own database", "value": "Each customer's data lives in its own database, separate from every other customer's." },
     { "term": "Access by role", "value": "What each person can see and change follows their role. Financial data, such as rates, margins and invoice amounts, is only visible to people with finance access." },
     { "term": "Audit log", "value": "Every change to clients, contacts, deals, proposals, invoices and profiles is recorded in a log that can't be edited, and can be exported as CSV." },
     { "term": "Signed proposals", "value": "Each signature records the signer's name, title, email, time and a checksum of the signed document." },
     { "term": "Client access", "value": "Clients review proposals, follow projects and approve hours through secure links, without an account in your workspace." },
-    { "term": "Sign-in", "value": "[[Sign-in methods, e.g. Google or Microsoft accounts, and whether two-factor authentication is supported.]]" },
-    { "term": "Backups", "value": "[[Backup frequency and how long backups are kept.]]" },
+    { "term": "Sign-in", "value": "[[Publish once built: email and password with two-factor authentication (required for administrators), plus Google and Microsoft sign-in.]]" },
+    { "term": "Backups", "value": "[[Publish once configured: backed up every night and kept for 14 days, with point-in-time recovery for the last 7 days, stored in the EU.]]" },
+    { "term": "When you leave", "value": "You can export your data. We delete it within 30 days after the contract ends, and it disappears from backups when they expire." },
+    { "term": "Incidents", "value": "If a security incident affects your data, we tell you without undue delay, and within 72 hours." },
     { "term": "Security testing", "value": "Our code, the libraries it uses and our cloud setup are scanned continuously by Aikido Security." },
     { "term": "Certification", "value": "Implesta is not ISO 27001 or SOC 2 certified yet. Ask us how we work in the meantime; we walk you through it." },
-    { "term": "GDPR", "value": "[[Data processing agreement available on request; list of subprocessors.]]" }
+    { "term": "GDPR", "value": "[[Data processing agreement available on request, and the list of subprocessors: Google Cloud, Resend (EU region), OpenStreetMap geocoding, and the AI services once their plans and regions are confirmed.]]" }
   ],
   "final": {
     "h2": "Questions about security?",
