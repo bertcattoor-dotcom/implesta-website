@@ -56,7 +56,9 @@ export const company = {
   // Short placeholders on purpose: they appear inside sentences, e.g. "Switching takes [[X weeks]]".
   facts: {
     firmSize: '20 to 150 people',
-    hostingRegion: '[[Hosting provider and region, e.g. Google Cloud in Belgium]]', // full sentence on its own
+    // Only what is decided: app and database in europe-west1. Sign-in (Firebase) and email
+    // (Resend, EU region) are listed as subprocessors, not covered by this sentence.
+    hostingRegion: 'The app and its database run on Google Cloud in Belgium (europe-west1)', // full sentence on its own
     accountingTools: '[[accounting tools connected at launch]]',
     onboardingTime: '2 to 4 weeks', // with the included onboarding; migrations take longer
     appLanguages: '[[Which languages the app itself is available in]]', // full sentence on its own
