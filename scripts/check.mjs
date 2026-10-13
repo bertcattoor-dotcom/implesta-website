@@ -126,7 +126,9 @@ if (launch) {
     if (!fs.existsSync(path.join(ROOT, 'public/fonts', f))) fail('Launch', `public/fonts/${f} is missing (run npm install && npm run fonts)`);
   }
   if (!company.booking.calLink) fail('Launch', 'company.booking.calLink is not set');
-  if (typeof company.pricing.perUserPerMonth !== 'number') fail('Launch', 'company.pricing.perUserPerMonth is not set');
+  for (const key of ['fullUserPerMonth', 'teamMemberPerMonth']) {
+    if (typeof company.pricing[key] !== 'number') fail('Launch', `company.pricing.${key} is not set`);
+  }
 }
 
 // --- Report ---------------------------------------------------------------------------

@@ -320,6 +320,8 @@ a:hover { color: var(--primary-hover); text-decoration-color: currentColor; }
 .price { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
 .price__amount { font-family: var(--font-display); font-weight: 600; font-size: 3.5rem; line-height: 1; letter-spacing: -0.01em; font-variant-numeric: tabular-nums; }
 .price__unit { color: var(--text-secondary); }
+.seat { display: flex; flex-direction: column; gap: 8px; padding-bottom: 24px; border-bottom: 1px solid var(--divider); }
+.seat__name { font-family: var(--font-sans); font-size: 1rem; font-weight: 600; margin: 0; }
 
 .panel { border: 1px solid var(--border); border-radius: var(--radius); background: var(--surface); box-shadow: var(--shadow-card); padding: 40px; display: flex; flex-direction: column; gap: 24px; }
 .panel--quiet { box-shadow: none; }

@@ -1,35 +1,40 @@
 {
   "title": "Pricing",
-  "description": "One price per user per month, everything included: CRM, planning, timesheets, invoicing and margins. Prices exclude VAT.",
+  "description": "{price} per full user and {teamPrice} per team member, per month. CRM, planning, timesheets, invoicing and margins included. Prices exclude VAT.",
   "primaryQuery": "Implesta pricing",
   "navLabel": "Pricing",
-  "teaser": "One price per user per month, everything included.",
-  "h1": "One price per user, everything included",
-  "lead": "No modules to add later, no extra charge for the client portal or for people who only log time. [[Confirm this matches the pricing model.]]",
+  "teaser": "{price} per full user, {teamPrice} per team member.",
+  "h1": "Two prices, everything included",
+  "lead": "Full users sell, plan, approve and invoice. Team members log their time and get the signals meant for them. Both get every module; nothing is sold as an add-on.",
   "plan": {
-    "unit": "per user per month, excl. VAT",
-    "terms": "{billing}",
+    "unit": "per person per month, excl. VAT",
+    "seats": [
+      { "name": "Full user", "price": "{price}", "text": "Sales, planning, delivery leads, finance and management: everything their role allows." },
+      { "name": "Team member", "price": "{teamPrice}", "text": "My Space, time and leave, the projects and tasks they work on, and their own signals." }
+    ],
+    "terms": "{billing}. {minimumSeats}.",
     "included": [
       "CRM, proposals and online signature",
       "Resource planning and projects",
       "Timesheets with manager and client approval",
       "Invoice preparation and margins",
       "Client portal and signals for every team",
-      "Onboarding: {onboarding}"
+      "Setup, import from our templates, training per role and 30 days of support"
     ]
   },
   "example": {
     "h2": "An example",
-    "text": "A firm of 25 people pays 25 × {price} per month. [[Replace with the real calculation once prices are set.]]"
+    "text": "A firm of {examplePeople} people, with {exampleFull} full users and {exampleTeam} team members, pays {exampleFull} × {price} + {exampleTeam} × {teamPrice} = **{exampleTotal} a month**. As a founding customer, it pays {exampleFounding} a month in its first year."
   },
   "faq": {
     "h2": "What finance will ask",
     "items": [
-      { "q": "How long is the contract, and can we cancel?", "a": "{contract}." },
+      { "q": "Who counts as a full user?", "a": "Anyone who sells, plans other people, approves time, or works in finance or admin. Everyone else is a team member." },
+      { "q": "Do we pay for people who only log time?", "a": "Yes, at the team member price of {teamPrice} a month. They log time and leave, see their own projects and get the signals meant for them." },
       { "q": "Is onboarding included?", "a": "{onboarding}." },
-      { "q": "Is there a minimum number of users?", "a": "{minimumSeats}." },
-      { "q": "Do we pay for people who only log time?", "a": "[[Answer once the pricing model is set.]]" },
-      { "q": "How do you invoice us?", "a": "[[Monthly or yearly, by invoice or direct debit.]]" }
+      { "q": "Is there a minimum?", "a": "{minimumSeats}." },
+      { "q": "How long is the contract, and can we cancel?", "a": "{contract}." },
+      { "q": "How do you invoice us?", "a": "Monthly or yearly in advance, by [[invoice or direct debit]]." }
     ]
   },
   "final": {

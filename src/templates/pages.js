@@ -7,14 +7,29 @@ import { demoButton, textLink, screen, lifecycle, faq, nextCard, founderPhoto, s
 import { pages, pathFor, getPage } from '../pages.js';
 import { company, isPlaceholder } from '../company.js';
 
-const price = (lang) => {
-  const p = company.pricing.perUserPerMonth;
-  if (p === null || p === undefined) return '[[price]]';
-  return new Intl.NumberFormat(lang === 'en' ? 'en-IE' : `${lang}-BE`, { style: 'currency', currency: company.pricing.currency, maximumFractionDigits: 0 }).format(p);
+const money = (amount, lang) => {
+  if (typeof amount !== 'number') return '[[price]]';
+  return new Intl.NumberFormat(lang === 'en' ? 'en-IE' : `${lang}-BE`, { style: 'currency', currency: company.pricing.currency, maximumFractionDigits: 0 }).format(amount);
+};
+
+// The pricing example is computed from company.js, so it can never disagree with the prices.
+const example = () => {
+  const p = company.pricing;
+  const { fullUsers, teamMembers } = p.example;
+  const total = fullUsers * p.fullUserPerMonth + teamMembers * p.teamMemberPerMonth;
+  return { fullUsers, teamMembers, people: fullUsers + teamMembers, total, founding: total * (1 - p.foundingDiscountPct / 100) };
 };
 
 const fill = (text, lang) => String(text)
-  .replaceAll('{price}', price(lang))
+  .replaceAll('{price}', money(company.pricing.fullUserPerMonth, lang))
+  .replaceAll('{teamPrice}', money(company.pricing.teamMemberPerMonth, lang))
+  .replaceAll('{minimumFullUsers}', String(company.pricing.minimumFullUsers))
+  .replaceAll('{foundingDiscount}', `${company.pricing.foundingDiscountPct}%`)
+  .replaceAll('{exampleFull}', String(example().fullUsers))
+  .replaceAll('{exampleTeam}', String(example().teamMembers))
+  .replaceAll('{examplePeople}', String(example().people))
+  .replaceAll('{exampleTotal}', money(example().total, lang))
+  .replaceAll('{exampleFounding}', money(example().founding, lang))
   .replaceAll('{firmSize}', company.facts.firmSize)
   .replaceAll('{minutes}', String(company.booking.minutes))
   .replaceAll('{founder}', company.founder.name)
@@ -321,7 +336,12 @@ function pricing({ lang, c, ui }) {
   <section class="section section--small" style="padding-top:0">
     <div class="container split split--even">
       <div class="panel">
-        <div class="price"><span class="price__amount">${r('{price}', lang)}</span><span class="price__unit">${esc(c.plan.unit)}</span></div>
+        ${c.plan.seats.map((s) => html`
+        <div class="seat">
+          <h2 class="seat__name">${esc(s.name)}</h2>
+          <div class="price"><span class="price__amount">${r(s.price, lang)}</span><span class="price__unit">${esc(c.plan.unit)}</span></div>
+          <p class="secondary">${r(s.text, lang)}</p>
+        </div>`)}
         <p class="secondary small">${r(c.plan.terms, lang)}</p>
         ${company.pricing.foundingOffer ? `<p>${esc(company.pricing.foundingOffer)}</p>` : ''}
         ${demoButton(lang, ui.bookDemo, 'pricing', { large: true })}

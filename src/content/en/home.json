@@ -136,13 +136,13 @@
     "items": [
       { "title": "We import your data", "text": "Clients, contacts, open deals, people and rates, from your current tools or spreadsheets." },
       { "title": "Your accounting stays", "text": "Implesta prepares the invoice. Your accounting tool still numbers, sends and books it." },
-      { "title": "Your team is shown how", "text": "[[Onboarding format: sessions, duration, who attends.]]" }
+      { "title": "Your team is shown how", "text": "One training session per role, a short video for team members, and 30 days of support after you go live." }
     ]
   },
 
   "price": {
-    "h2": "From {price} per user per month",
-    "text": "Everything included. Prices exclude VAT.",
+    "h2": "{price} per full user, {teamPrice} per team member",
+    "text": "Per month, everything included. Prices exclude VAT.",
     "link": { "label": "See pricing", "target": "page:pricing" }
   },
 
@@ -152,7 +152,7 @@
       { "q": "Where is our data stored?", "a": "{hosting}. More on the [security page](page:security)." },
       { "q": "Does it work with our accounting tool?", "a": "Implesta prepares the invoice; your accounting tool numbers, sends and books it. Connected today: {accountingTools}. Any other tool works through a manual route: mark the invoice as sent and type its number." },
       { "q": "How long is the contract?", "a": "{contract}." },
-      { "q": "What happens to our current data?", "a": "We import clients, contacts, open deals, people and rates from spreadsheets or your current tools. Switching takes {onboardingTime}." },
+      { "q": "What happens to our current data?", "a": "We import clients, contacts, open deals, people and rates from our spreadsheet templates, as part of onboarding. Moving history out of another system is quoted separately. Switching takes {onboardingTime}." },
       { "q": "Can my team use it in Dutch or French?", "a": "{appLanguages}." }
     ]
   },

@@ -43,14 +43,20 @@ function software(lang, content) {
     description: plain(content.description),
     publisher: { '@id': `${site.url}/#organization` },
   };
-  if (typeof company.pricing.perUserPerMonth === 'number') {
-    app.offers = {
-      '@type': 'Offer',
-      price: String(company.pricing.perUserPerMonth),
-      priceCurrency: company.pricing.currency,
-      url: abs('pricing', lang),
-      priceSpecification: { '@type': 'UnitPriceSpecification', price: String(company.pricing.perUserPerMonth), priceCurrency: company.pricing.currency, unitText: 'per user per month', valueAddedTaxIncluded: false },
-    };
+  const seat = (name, amount, unitText) => ({
+    '@type': 'Offer',
+    name,
+    price: String(amount),
+    priceCurrency: company.pricing.currency,
+    url: abs('pricing', lang),
+    priceSpecification: { '@type': 'UnitPriceSpecification', price: String(amount), priceCurrency: company.pricing.currency, unitText, valueAddedTaxIncluded: false },
+  });
+  const { fullUserPerMonth, teamMemberPerMonth } = company.pricing;
+  if (typeof fullUserPerMonth === 'number' && typeof teamMemberPerMonth === 'number') {
+    app.offers = [
+      seat('Full user', fullUserPerMonth, 'per full user per month'),
+      seat('Team member', teamMemberPerMonth, 'per team member per month'),
+    ];
   }
   return app;
 }

@@ -13,7 +13,7 @@
   ],
   "links": [
     { "page": "product", "title": "Look around the product", "text": "One flow from first contact to final payment." },
-    { "page": "pricing", "title": "Check the pricing", "text": "One price per user, everything included." },
+    { "page": "pricing", "title": "Check the pricing", "text": "{price} per full user, {teamPrice} per team member." },
     { "page": "security", "title": "Forward the security page", "text": "For your finance and IT leads." }
   ]
 }
