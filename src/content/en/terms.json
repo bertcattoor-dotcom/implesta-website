@@ -31,7 +31,7 @@
       "Setup, one import from our spreadsheet templates, a training session per role and 30 days of support after going live are included. Moving data or history out of another system is extra work, which we quote in writing before we start."
     ] },
     { "h2": "7. Your data", "paragraphs": [
-      "The data you put into Implesta is yours. We use it only to provide the service to you, as set out in our data processing agreement [[link, once published]], and in our [privacy policy](page:privacy). We may use anonymous, aggregated usage figures that can't identify you or any person, to improve Implesta.",
+      "The data you put into Implesta is yours. We use it only to provide the service to you, as set out in our [data processing agreement](page:dpa), and in our [privacy policy](page:privacy). We may use anonymous, aggregated usage figures that can't identify you or any person, to improve Implesta.",
       "You can export your data at any time. When the contract ends, we keep it available for export for 30 days and then delete it; it disappears from our backups when they expire."
     ] },
     { "h2": "8. Acceptable use", "paragraphs": [
@@ -63,7 +63,7 @@
       "If these terms exist in more than one language and the versions differ, the English version applies."
     ] },
     { "h2": "Related", "paragraphs": [
-      "How we handle personal data: [privacy](page:privacy). How customer data is stored and protected: [security and data](page:security)."
+      "How we handle personal data: [privacy](page:privacy). How we process your data on your behalf: [data processing agreement](page:dpa). How customer data is stored and protected: [security and data](page:security)."
     ] }
   ]
 }

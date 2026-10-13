@@ -19,7 +19,7 @@
     { "term": "Incidents", "value": "If a security incident affects your data, we tell you without undue delay, and within 72 hours." },
     { "term": "Security testing", "value": "Our code, the libraries it uses and our cloud setup are scanned continuously by Aikido Security." },
     { "term": "Certification", "value": "Implesta is not ISO 27001 or SOC 2 certified yet. Ask us how we work in the meantime; we walk you through it." },
-    { "term": "GDPR", "value": "[[Data processing agreement available on request, and the list of subprocessors: Google Cloud, Resend (EU region), OpenStreetMap geocoding, and the AI services once their plans and regions are confirmed.]]" }
+    { "term": "GDPR", "value": "Our [data processing agreement](page:dpa) is part of every contract. It lists our subprocessors and the security measures we take." }
   ],
   "final": {
     "h2": "Questions about security?",

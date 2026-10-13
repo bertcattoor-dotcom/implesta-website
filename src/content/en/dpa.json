@@ -1,0 +1,75 @@
+{
+  "title": "Data processing agreement",
+  "description": "How Implesta processes personal data for its customers under Article 28 GDPR: instructions, security, subprocessors, breaches, deletion, audits.",
+  "primaryQuery": "Implesta data processing agreement GDPR",
+  "navLabel": "Data processing agreement",
+  "h1": "Data processing agreement",
+  "lead": "Last updated [[publication date]]. This agreement is part of our [terms of service](page:terms). It applies automatically to every customer and sets out how we process personal data on your behalf, as Article 28 of the GDPR requires. If you need a signed copy, ask us at {email}.",
+  "sections": [
+    { "h2": "1. Roles", "paragraphs": [
+      "You, the customer, are the **controller** of the personal data you and your users put into Implesta. {legalName} (\"Implesta\", \"we\") is the **processor**: we process that data only to provide Implesta to you.",
+      "Words such as personal data, processing, data subject and personal data breach have the meaning they have in the General Data Protection Regulation (EU) 2016/679 (\"GDPR\")."
+    ] },
+    { "h2": "2. What we process", "paragraphs": [
+      "**Purpose:** providing Implesta as described in the terms: sales, planning, timesheets, invoice preparation, the client portal, signals, support and the security of the service.",
+      "**Data subjects:** your staff and contractors who use Implesta; your clients' and prospects' contacts; other people whose details you choose to store, such as suppliers.",
+      "**Types of personal data:** names, work email addresses, phone numbers, job titles, work addresses; for your staff also roles, skills, rates and costs, planned and logged hours, leave, and activity in the app; for contacts also notes and the history of your dealings with them. Implesta is not designed for special categories of personal data (such as health data). Don't store them in it, except where you need to record leave and the law allows you to.",
+      "**Duration:** as long as your contract runs, plus the deletion period in section 9."
+    ] },
+    { "h2": "3. Your instructions", "paragraphs": [
+      "We process your personal data only on your documented instructions. Those instructions are the terms, this agreement, and the settings you choose in Implesta (for example switching an optional feature on). We tell you if we believe an instruction infringes the GDPR or other data protection law.",
+      "If EU or Belgian law requires us to process your data in another way, we tell you before we do so, unless that law forbids it."
+    ] },
+    { "h2": "4. Confidentiality", "paragraphs": [
+      "Everyone at Implesta and our subcontractors who can access your personal data is bound by confidentiality, and accesses it only as far as needed to provide or support the service."
+    ] },
+    { "h2": "5. Security", "paragraphs": [
+      "We take appropriate technical and organisational measures to protect your personal data, as required by Article 32 of the GDPR. The current measures are listed in Annex 2. We may improve them over time, but never lower the overall level of protection."
+    ] },
+    { "h2": "6. Subprocessors", "paragraphs": [
+      "You authorise us to use the subprocessors listed in Annex 3. Each is bound by a written agreement with data protection obligations at least as strict as these.",
+      "We tell you by email at least 30 days before we add or replace a subprocessor. If you object on reasonable grounds and we can't resolve your concern, you may end the contract before the change takes effect, without paying for the remaining period.",
+      "We remain responsible to you for our subprocessors' performance."
+    ] },
+    { "h2": "7. Transfers outside the EU", "paragraphs": [
+      "Your data in Implesta is stored in the EU. Where a subprocessor processes personal data outside the European Economic Area, we make sure the transfer is protected by an adequacy decision, such as the EU–US Data Privacy Framework, or by the European Commission's standard contractual clauses."
+    ] },
+    { "h2": "8. Helping you", "paragraphs": [
+      "Implesta lets you find, correct, export and delete the personal data it holds, so you can answer requests from data subjects. If a data subject contacts us directly, we pass the request to you without answering it ourselves, unless you ask us to.",
+      "We also help you, as far as reasonable, with your security obligations, data protection impact assessments and consultations with the supervisory authority."
+    ] },
+    { "h2": "9. Personal data breaches", "paragraphs": [
+      "If we become aware of a personal data breach affecting your data, we tell you without undue delay, and within 72 hours. We give you what we know about its nature, the data and people affected, its likely consequences and what we are doing about it, and we keep you informed as we learn more."
+    ] },
+    { "h2": "10. When the contract ends", "paragraphs": [
+      "You can export your data at any time. When the contract ends, we keep it available for export for 30 days, and then delete it, unless EU or Belgian law requires us to keep it. Deleted data disappears from our backups when they expire, within 14 days."
+    ] },
+    { "h2": "11. Audits", "paragraphs": [
+      "We give you the information you need to show that we meet this agreement. First, we answer your written questions and share our documentation, such as the [security page](page:security) and our security scanning results.",
+      "If that isn't enough, you or an independent auditor bound by confidentiality may audit us, once a year, with 30 days' notice, during office hours, without disrupting the service or other customers' confidentiality. You bear the cost of your audit, unless it reveals a material breach of this agreement."
+    ] },
+    { "h2": "12. Liability and precedence", "paragraphs": [
+      "The liability rules in the terms apply to this agreement as well, except where the GDPR doesn't allow them to. If this agreement and the terms differ on how personal data is processed, this agreement applies."
+    ] },
+    { "h2": "Annex 1: Description of the processing", "paragraphs": [
+      "As set out in section 2. Processing takes place continuously while you use Implesta, and consists of storing, organising, displaying, sending notifications about, exporting and deleting personal data."
+    ] },
+    { "h2": "Annex 2: Security measures", "paragraphs": [
+      "**Separation:** each customer's data lives in its own database.",
+      "**Location:** app and databases on Google Cloud in Belgium (europe-west1); backups in the EU.",
+      "**Encryption:** data is encrypted in transit and at rest. Secrets such as integration credentials are additionally encrypted by Implesta.",
+      "**Access:** access in the app follows each user's role; financial data only for people with finance access. Two-factor authentication is required for administrators. Passwords are stored only as secure hashes.",
+      "**Logging:** changes to clients, contacts, deals, proposals, invoices and profiles are recorded in an audit log that can't be edited.",
+      "**Backups:** [[nightly backups kept 14 days, with 7 days of point-in-time recovery, once configured in production]].",
+      "**Development:** code, the libraries it uses and the cloud setup are scanned continuously by Aikido Security; every change is reviewed and tested before release.",
+      "**Staff access:** we don't access your data except to support you at your request, to keep the service secure, or when the law requires it."
+    ] },
+    { "h2": "Annex 3: Subprocessors", "paragraphs": [
+      "**Google Cloud (Google Ireland Ltd):** hosting of the app and databases, file storage, sign-in infrastructure. Belgium (europe-west1) and EU.",
+      "**Resend:** sending the app's emails. EU region.",
+      "**[[Geocoding provider]]:** turning client addresses into map positions.",
+      "**Only when you switch them on, or a user connects them:** Anthropic (meeting summary, United States), Google (project health rating, [[region]]), Google and Microsoft (calendar sync), Slack (your own workspace).",
+      "We keep this list up to date and tell you before it changes, as section 6 describes."
+    ] }
+  ]
+}

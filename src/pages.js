@@ -38,6 +38,7 @@ export const pages = [
 
   { id: 'privacy', slug: { en: 'privacy', nl: 'privacy', fr: 'confidentialite' }, template: 'legal', parent: 'home', next: 'home', footer: 'legal', index: true },
   { id: 'terms', slug: { en: 'terms', nl: 'voorwaarden', fr: 'conditions' }, template: 'legal', parent: 'home', next: 'home', footer: 'legal', index: true },
+  { id: 'dpa', slug: { en: 'dpa', nl: 'verwerkersovereenkomst', fr: 'accord-de-traitement' }, template: 'legal', parent: 'home', next: 'security', footer: 'legal', index: true },
 
   { id: 'not-found', slug: { en: '404', nl: 'nl/404', fr: 'fr/404' }, template: 'notFound', next: 'home', index: false, special: '404' },
 ];
