@@ -1,11 +1,69 @@
 {
   "title": "Terms",
-  "description": "The terms that apply to the Implesta service.",
-  "primaryQuery": "Implesta terms",
+  "description": "The terms that apply when a company uses Implesta: seats, fees, contract length, your data, availability and liability.",
+  "primaryQuery": "Implesta terms of service",
   "navLabel": "Terms",
-  "h1": "Terms",
-  "lead": "[[Terms of service, to be provided and reviewed by a lawyer before launch.]]",
+  "h1": "Terms of service",
+  "lead": "Last updated [[publication date]]. These terms apply when a company uses Implesta. Together with the order or proposal you accept and our data processing agreement, they form the whole agreement between us.",
   "sections": [
-    { "h2": "Related", "paragraphs": ["How we handle personal data: [privacy](page:privacy). How customer data is stored and protected: [security and data](page:security)."] }
+    { "h2": "1. Who these terms are between", "paragraphs": [
+      "These terms are between {legalName} (\"Implesta\", \"we\"), enterprise number {enterpriseNumber}, and the company that subscribes to Implesta (\"you\", the customer). Implesta is a service for businesses only. The person who accepts these terms confirms they may do so on the company's behalf."
+    ] },
+    { "h2": "2. The service", "paragraphs": [
+      "Implesta is a web application for sales, planning, timesheets and invoice preparation, as described on implesta.com. We improve it continuously. We may change or remove features, but we won't take away core functionality you rely on during a paid period without telling you at least 30 days in advance."
+    ] },
+    { "h2": "3. Users and seats", "paragraphs": [
+      "There are two seat types, as described on [pricing](page:pricing): full users, who sell, plan other people, approve, or work in finance or admin, and team members, who log their time and leave and work on their own projects and tasks. You keep each person's seat type accurate. The minimum is {minimumFullUsers} full users.",
+      "You are responsible for who you give access to and for what they do in Implesta. Keep sign-in details secret, use two-factor authentication where the app requires it, and tell us at once at {email} if you suspect misuse."
+    ] },
+    { "h2": "4. Fees and payment", "paragraphs": [
+      "Fees are those on our pricing page or in the proposal you accepted, in euro, excluding VAT. We invoice in advance, monthly or yearly. Invoices are payable by bank transfer within 30 days.",
+      "If an invoice is late, statutory interest under the Belgian law on late payment in commercial transactions applies. If it is still unpaid 14 days after a written reminder, we may suspend access until it is paid. Your data is not deleted during a suspension.",
+      "We may change our prices with at least 60 days' notice. A change takes effect at your next renewal; a yearly price never changes during the year.",
+      "Founding customers pay half price for their first 12 months and commit to those 12 months."
+    ] },
+    { "h2": "5. Contract length and cancellation", "paragraphs": [
+      "**Monthly billing:** you can cancel at any time with one month's notice.",
+      "**Yearly billing:** the contract runs 12 months and renews for another 12 months unless either party cancels at least 30 days before the renewal date.",
+      "Either party may end the contract if the other seriously breaches it and doesn't fix the breach within 30 days of a written notice. Fees already paid are not refunded, unless you end the contract because of our breach; then we refund the fees for the unused period."
+    ] },
+    { "h2": "6. Onboarding", "paragraphs": [
+      "Setup, one import from our spreadsheet templates, a training session per role and 30 days of support after going live are included. Moving data or history out of another system is extra work, which we quote in writing before we start."
+    ] },
+    { "h2": "7. Your data", "paragraphs": [
+      "The data you put into Implesta is yours. We use it only to provide the service to you, as set out in our data processing agreement [[link, once published]], and in our [privacy policy](page:privacy). We may use anonymous, aggregated usage figures that can't identify you or any person, to improve Implesta.",
+      "You can export your data at any time. When the contract ends, we keep it available for export for 30 days and then delete it; it disappears from our backups when they expire."
+    ] },
+    { "h2": "8. Acceptable use", "paragraphs": [
+      "Don't use Implesta for anything unlawful, don't upload content you have no right to use, don't try to break or test its security without our written permission, don't copy or reverse-engineer it beyond what the law allows, and don't resell access. We may suspend access that puts the service or other customers at risk, and tell you why."
+    ] },
+    { "h2": "9. Availability and support", "paragraphs": [
+      "We do our best to keep Implesta available and fast. We announce planned maintenance in advance and try to do it outside office hours. We don't currently guarantee a specific uptime, unless agreed in writing.",
+      "Support is by email at {email} on Belgian working days. We tell you without undue delay, and within 72 hours, if a security incident affects your data."
+    ] },
+    { "h2": "10. Other services you connect", "paragraphs": [
+      "Implesta can connect to services from other companies, such as accounting tools, calendars, Slack and AI providers. Their own terms apply to them, and we are not responsible for their availability or for what they do with data you choose to send them. Suggestions from the optional AI features are suggestions: check them before relying on them."
+    ] },
+    { "h2": "11. Intellectual property", "paragraphs": [
+      "Implesta, its software and its content belong to us. During your subscription you may use Implesta for your own business, within these terms. If you send us ideas or feedback, we may use them freely, without obligation to you."
+    ] },
+    { "h2": "12. Confidentiality", "paragraphs": [
+      "Each of us keeps the other's non-public information confidential and uses it only for this contract, during the contract and for three years after it. This doesn't cover information that is already public, that was already known, or that the law requires to be disclosed."
+    ] },
+    { "h2": "13. Liability", "paragraphs": [
+      "Neither of us is liable for indirect damage, such as lost profit, lost revenue or lost business opportunities.",
+      "Our total liability in any 12-month period is limited to the fees you paid us in the 12 months before the event that caused the damage.",
+      "These limits don't apply to fraud, intentional misconduct or gross negligence, or where the law doesn't allow liability to be limited."
+    ] },
+    { "h2": "14. Changes to these terms", "paragraphs": [
+      "We may update these terms, and tell you by email at least 30 days before a change takes effect. If a change is to your disadvantage, you may end the contract before it takes effect, without paying for the remaining period."
+    ] },
+    { "h2": "15. Law and disputes", "paragraphs": [
+      "Belgian law applies. We will first try to resolve any disagreement by talking. If that fails, the courts of the judicial district where {legalName} has its registered office decide.",
+      "If these terms exist in more than one language and the versions differ, the English version applies."
+    ] },
+    { "h2": "Related", "paragraphs": [
+      "How we handle personal data: [privacy](page:privacy). How customer data is stored and protected: [security and data](page:security)."
+    ] }
   ]
 }
