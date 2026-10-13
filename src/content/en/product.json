@@ -1,0 +1,30 @@
+{
+  "title": "Product: one flow from first contact to payment",
+  "description": "CRM and proposals, resource planning, timesheets and invoicing in one flow. Each team hears what happens elsewhere that affects their work.",
+  "primaryQuery": "resource planning and invoicing software for services firms",
+  "navLabel": "Product",
+  "h1": "One flow, from first contact to final payment",
+  "lead": "Implesta follows a piece of work through every team that touches it: sales, delivery, planning, finance. Each step tells the next what it needs to know, so nothing is typed twice and nobody has to chase.",
+  "flowTitle": "Four parts, in the order work happens",
+  "signals": {
+    "h2": "Information comes to you",
+    "text": "When something happens in one part of the flow, the people it affects hear about it: in the notification bell and in the For you list in My Space, next to the client or project it concerns. Only what matters to their role, once, and never about their own actions.",
+    "examples": [
+      { "to": "Operations", "title": "Deal likely to close this week: Haverland Foods", "line": "480 h from next Monday. Line up people before it is signed." },
+      { "to": "Account manager", "title": "Hours over budget: Packaging line commissioning", "line": "460 of 400 h. Talk to the client before the next invoice." },
+      { "to": "Billing owner", "title": "Prepare invoice: Packaging line commissioning", "line": "Last month's approved hours. Lines, rates and client details are filled in." }
+    ]
+  },
+  "also": {
+    "h2": "Also in every plan",
+    "items": [
+      { "title": "My Space", "text": "Each person's own page: what is planned for them today and coming up, time logging, leave and the signals meant for them." },
+      { "title": "Client portal", "text": "Clients review proposals, sign online, follow milestones and approve hours from a secure link, without an account." },
+      { "title": "Roles and audit log", "text": "Access follows each person's role, and every change to clients, deals, proposals and invoices is recorded. More on [security](page:security)." }
+    ]
+  },
+  "final": {
+    "h2": "See the whole flow with your own kind of project",
+    "text": "{minutes} minutes with {founder}. No slides."
+  }
+}

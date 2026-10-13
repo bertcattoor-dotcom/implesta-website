@@ -1,0 +1,27 @@
+{
+  "title": "About Implesta",
+  "description": "Implesta is built in Belgium by Bert Cattoor, for firms that sell their people's time and want every team to know what it needs to know.",
+  "primaryQuery": "Implesta company",
+  "navLabel": "About",
+  "teaser": "Who builds Implesta, and why.",
+  "h1": "Built in Belgium, for firms that sell their people's time",
+  "lead": "Implesta exists because the information a team needs usually already exists somewhere else in the firm. It just doesn't arrive.",
+  "story": [
+    "[[Bert's background: where he worked, which kind of firms, in which role.]]",
+    "[[What he saw go wrong between sales, operations and finance, with one concrete example.]]",
+    "[[Why he built Implesta, and what it does differently: information that comes to the right person, instead of waiting to be found.]]"
+  ],
+  "company": {
+    "h2": "Company details",
+    "items": [
+      { "term": "Legal name", "value": "{legalName}" },
+      { "term": "Enterprise number", "value": "{enterpriseNumber}" },
+      { "term": "Contact", "value": "{email}" },
+      { "term": "Founder", "value": "{founder}" }
+    ]
+  },
+  "final": {
+    "h2": "Talk to the person who builds it",
+    "text": "Every demo is with {founder}: {minutes} minutes, with a scenario like yours."
+  }
+}

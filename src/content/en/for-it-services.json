@@ -1,0 +1,37 @@
+{
+  "title": "Implesta for IT services and implementation partners",
+  "description": "Scope with delivery before you sign, plan consultants early, and know when a project runs over budget. Built for IT services firms.",
+  "primaryQuery": "PSA software for IT services firms",
+  "navLabel": "IT services",
+  "teaser": "Scoping with delivery, consultants planned early, budgets watched daily.",
+  "h1": "Sell what your consultants can deliver, and know when it drifts",
+  "lead": "Implementation projects are sold by one person, scoped by another and delivered by a team. Implesta keeps them on the same page: delivery helps scope the proposal, consultants are pencilled in before the deal closes, and the account manager hears when hours run over budget.",
+  "situations": {
+    "h2": "Where it goes wrong today",
+    "items": [
+      { "title": "Sold before it was scoped", "text": "The proposal went out with a number delivery never saw." },
+      { "title": "The start date nobody planned", "text": "The deal closed, and the consultants were already booked elsewhere." },
+      { "title": "The overrun found at invoice time", "text": "The project looked fine for weeks. Then the hours were added up." }
+    ]
+  },
+  "signals": {
+    "h2": "Who hears about it",
+    "text": "Sales, delivery and finance each hear what affects them.",
+    "items": [
+      { "to": "Delivery lead", "title": "Help scope this proposal by Thursday", "line": "Client brief and sales notes are attached." },
+      { "to": "Operations", "title": "Deal likely to close this week: Haverland Foods", "line": "480 h from next Monday. Line up people before it is signed." },
+      { "to": "Account manager", "title": "Hours over budget: Packaging line commissioning", "line": "460 of 400 h. Talk to the client before the next invoice." }
+    ]
+  },
+  "where": {
+    "h2": "Where to look first",
+    "items": [
+      { "page": "product-sales", "title": "Sales and proposals", "text": "Scoping with delivery, proposals signed online." },
+      { "page": "product-invoicing", "title": "Invoicing and margins", "text": "Milestones, time and materials or retainers, and margin per project." }
+    ]
+  },
+  "final": {
+    "h2": "See a project from scoping to margin",
+    "text": "{minutes} minutes with {founder}, with a project like yours."
+  }
+}

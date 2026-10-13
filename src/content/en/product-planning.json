@@ -1,0 +1,34 @@
+{
+  "title": "Planning and delivery: people, capacity and projects",
+  "description": "Plan people by skills and availability, pencil them in before a deal closes, and run projects with milestones and a client portal.",
+  "primaryQuery": "resource planning software for consultancies",
+  "navLabel": "Planning and delivery",
+  "teaser": "People by skills and availability, pencilled in early, projects with milestones.",
+  "h1": "Plan people before the contract is signed",
+  "lead": "Operations sees every booking, every conflict and every person's capacity in one grid. People can be pencilled in while a deal is still open and confirmed the moment it is won, and everyone affected hears about it.",
+  "heroScreen": { "id": "product-planning-hero", "describes": "Allocation grid by person and week" },
+  "features": [
+    { "title": "Pencilled in, then confirmed", "text": "Book people softly while a deal is open, and confirm them when it is won. Each person sees where they are pencilled in, and when it becomes firm.", "screen": { "id": "product-planning-soft", "describes": "Pencilled-in and confirmed bookings" } },
+    { "title": "Capacity at a glance", "text": "Each person's load against their own working week: green under 80%, amber when fully booked, red when over. Double bookings are flagged before they happen.", "screen": { "id": "product-planning-capacity", "describes": "Capacity per person with conflicts flagged" } },
+    { "title": "The right people for the work", "text": "A skills matrix with levels and languages shows who can do what, and where the gaps are for a project.", "screen": { "id": "product-planning-skills", "describes": "Skills matrix with levels" } },
+    { "title": "Projects your clients can follow", "text": "Milestones, a charter the client signs, and a portal where they follow progress without an account.", "screen": { "id": "product-planning-portal", "describes": "Client project portal with milestones" } }
+  ],
+  "signals": {
+    "h2": "Who hears about it",
+    "text": "Bookings change, and the people involved know straight away.",
+    "items": [
+      { "to": "Account manager", "title": "2 people pencilled in for Haverland Foods", "line": "Jonas De Smet and Elise Vandamme, from next Monday. Tell the client who could start." },
+      { "to": "Engineer", "title": "Possible assignment from next Monday", "line": "Line 3 PLC migration, Haverland Foods. Pencilled in, not confirmed." },
+      { "to": "Engineer", "title": "You are confirmed on Line 3 PLC migration", "line": "6 weeks, 40 h a week. Client contact: Ann Lievens." }
+    ]
+  },
+  "details": {
+    "h2": "The details",
+    "items": [
+      { "term": "Bookings", "value": "Per person per day, pencilled in or confirmed, on site or remote." },
+      { "term": "Working weeks", "value": "Full time, part time or shifts per person, so capacity is measured against their own week." },
+      { "term": "Team calendar", "value": "Bookings, approved leave and public holidays in one view." },
+      { "term": "Who plans people", "value": "Set in the admin settings, so planning signals go to the right people." }
+    ]
+  }
+}

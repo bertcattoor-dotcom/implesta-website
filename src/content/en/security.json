@@ -1,0 +1,23 @@
+{
+  "title": "Security and data",
+  "description": "Where Implesta stores your data, who can see what, and how every change is recorded. The page to forward to your finance and IT leads.",
+  "primaryQuery": "Implesta security and GDPR",
+  "navLabel": "Security and data",
+  "teaser": "Hosting, access by role, audit log and GDPR.",
+  "h1": "Your data, who sees it, and what is recorded",
+  "lead": "The facts your finance and IT leads will ask for, in one place.",
+  "items": [
+    { "term": "Where data is stored", "value": "{hosting}." },
+    { "term": "Access by role", "value": "What each person can see and change follows their role. Financial data, such as rates, margins and invoice amounts, is only visible to people with finance access." },
+    { "term": "Audit log", "value": "Every change to clients, contacts, deals, proposals, invoices and profiles is recorded in a log that can't be edited, and can be exported as CSV." },
+    { "term": "Signed proposals", "value": "Each signature records the signer's name, title, email, time and a checksum of the signed document." },
+    { "term": "Client access", "value": "Clients review proposals, follow projects and approve hours through secure links, without an account in your workspace." },
+    { "term": "Sign-in", "value": "[[Sign-in methods, e.g. Google or Microsoft accounts, and whether two-factor authentication is supported.]]" },
+    { "term": "Backups", "value": "[[Backup frequency and how long backups are kept.]]" },
+    { "term": "GDPR", "value": "[[Data processing agreement available on request; list of subprocessors.]]" }
+  ],
+  "final": {
+    "h2": "Questions about security?",
+    "text": "Bring them to the demo. {minutes} minutes with {founder}."
+  }
+}

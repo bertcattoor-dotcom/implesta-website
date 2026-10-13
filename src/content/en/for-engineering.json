@@ -1,0 +1,37 @@
+{
+  "title": "Implesta for engineering consultancies",
+  "description": "Fixed-price and time-based engineering projects, planned by skill, invoiced by milestone, with margin per project. Built for engineering firms.",
+  "primaryQuery": "project management software for engineering consultancies",
+  "navLabel": "Engineering consultancies",
+  "teaser": "Fixed-price and time-based projects, planned by skill, invoiced by milestone.",
+  "h1": "Engineering projects that close at the margin you sold",
+  "lead": "Your engineers work on fixed-price projects and on time and materials, often both at once. Implesta plans them by skill, invoices each milestone when it is reached, and shows the margin of every project while there is still time to act.",
+  "situations": {
+    "h2": "Where it goes wrong today",
+    "items": [
+      { "title": "The milestone nobody invoiced", "text": "The work was delivered in March. The invoice went out in May." },
+      { "title": "Skills in a spreadsheet", "text": "Who knows the PLC platform this client runs? Someone has to ask around." },
+      { "title": "Margin known too late", "text": "Each project gets its post-mortem, but only after the money is gone." }
+    ]
+  },
+  "signals": {
+    "h2": "Who hears about it",
+    "text": "Milestones, budgets and margins reach the people who can act.",
+    "items": [
+      { "to": "Billing owner", "title": "Prepare invoice: Packaging line commissioning", "line": "Last month's approved hours. Lines, rates and client details are filled in." },
+      { "to": "Account manager", "title": "Hours over budget: Packaging line commissioning", "line": "460 of 400 h. Talk to the client before the next invoice." },
+      { "to": "Owner", "title": "Line 1 safety retrofit closed at 38% margin", "line": "Target was 40%. See where the hours went." }
+    ]
+  },
+  "where": {
+    "h2": "Where to look first",
+    "items": [
+      { "page": "product-planning", "title": "Planning and delivery", "text": "Engineers by skill and availability, projects with milestones." },
+      { "page": "product-invoicing", "title": "Invoicing and margins", "text": "Every billing moment signalled, margin per project against its target." }
+    ]
+  },
+  "final": {
+    "h2": "See an engineering project from plan to margin",
+    "text": "{minutes} minutes with {founder}, with a project like yours."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "title": "Pricing",
+  "description": "One price per user per month, everything included: CRM, planning, timesheets, invoicing and margins. Prices exclude VAT.",
+  "primaryQuery": "Implesta pricing",
+  "navLabel": "Pricing",
+  "teaser": "One price per user per month, everything included.",
+  "h1": "One price per user, everything included",
+  "lead": "No modules to add later, no extra charge for the client portal or for people who only log time. [[Confirm this matches the pricing model.]]",
+  "plan": {
+    "unit": "per user per month, excl. VAT",
+    "terms": "{billing}",
+    "included": [
+      "CRM, proposals and online signature",
+      "Resource planning and projects",
+      "Timesheets with manager and client approval",
+      "Invoice preparation and margins",
+      "Client portal and signals for every team",
+      "Onboarding: {onboarding}"
+    ]
+  },
+  "example": {
+    "h2": "An example",
+    "text": "A firm of 25 people pays 25 × {price} per month. [[Replace with the real calculation once prices are set.]]"
+  },
+  "faq": {
+    "h2": "What finance will ask",
+    "items": [
+      { "q": "How long is the contract, and can we cancel?", "a": "{contract}." },
+      { "q": "Is onboarding included?", "a": "{onboarding}." },
+      { "q": "Is there a minimum number of users?", "a": "{minimumSeats}." },
+      { "q": "Do we pay for people who only log time?", "a": "[[Answer once the pricing model is set.]]" },
+      { "q": "How do you invoice us?", "a": "[[Monthly or yearly, by invoice or direct debit.]]" }
+    ]
+  },
+  "final": {
+    "h2": "Talk it through with your own numbers",
+    "text": "{minutes} minutes with {founder}, including what Implesta would cost for your team."
+  }
+}

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="34 34 236 236" width="236" height="236" role="img" aria-label="Implesta"><title>Implesta</title><defs>
+<linearGradient id="gBlue" x1="460" y1="90" x2="90" y2="420" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#35D3F5"/><stop offset="0.5" stop-color="#2B8FEA"/><stop offset="1" stop-color="#1450DC"/></linearGradient>
+<linearGradient id="gBlueFold" x1="460" y1="120" x2="140" y2="440" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#1FA6D8"/><stop offset="1" stop-color="#0B3FC0"/></linearGradient>
+<linearGradient id="gMag" x1="515" y1="200" x2="170" y2="420" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#EE46E0"/><stop offset="0.55" stop-color="#B02FD8"/><stop offset="1" stop-color="#6A22D6"/></linearGradient>
+<linearGradient id="gMagFold" x1="510" y1="230" x2="210" y2="460" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#D938C6"/><stop offset="1" stop-color="#5A1CB8"/></linearGradient>
+<linearGradient id="gTail" x1="290" y1="400" x2="370" y2="505" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#F0206E"/><stop offset="0.6" stop-color="#F3486A"/><stop offset="1" stop-color="#F7894A"/></linearGradient>
+</defs><g transform="translate(-0.57 -0.56) scale(0.5070)">
+
+<path fill="url(#gBlue)" d="M462 82 C400 130 290 165 200 215 C120 260 80 310 86 365 C90 405 118 438 155 455 C128 415 125 370 150 335 C185 290 260 262 340 235 C410 212 458 180 462 82 Z"/>
+<path fill="url(#gBlueFold)" d="M462 82 C458 180 410 212 340 235 C260 262 185 290 150 335 C125 370 128 415 155 455 C140 420 145 380 170 350 C210 305 290 280 360 258 C425 238 462 200 462 110 Z"/>
+<path fill="url(#gMag)" d="M515 192 C455 225 360 250 275 285 C205 314 165 350 160 395 C156 440 190 478 240 497 C280 510 330 506 362 500 C318 490 292 462 285 430 C282 405 295 390 330 375 C400 348 470 322 500 280 C515 258 518 225 515 192 Z"/>
+<path fill="url(#gMagFold)" d="M515 222 C505 280 445 305 370 328 C300 350 230 370 205 410 C190 440 200 470 230 492 C240 440 270 400 330 375 C400 348 470 322 500 280 C515 258 518 240 515 222 Z"/>
+<path fill="url(#gTail)" d="M295 392 C258 400 232 420 232 448 C232 478 262 500 300 505 C325 508 348 505 362 500 C318 490 290 462 285 432 C282 412 286 400 295 392 Z"/>
+
+</g></svg>

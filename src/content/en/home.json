@@ -1,0 +1,164 @@
+{
+  "title": "Implesta: sales, planning, time and invoicing in one place",
+  "description": "One platform for firms that sell their people's time. Each team hears what happens elsewhere that affects their work, from first contact to final payment.",
+  "primaryQuery": "professional services automation software",
+  "navLabel": "Home",
+  "h1": "Every team knows what they need to know. Nobody has to chase.",
+  "lead": "Implesta is one platform for sales, planning, timesheets and invoicing, built for firms that sell their people's time. It tells each person what happens elsewhere that affects their work, the moment it happens.",
+  "secondaryCta": { "label": "See the product", "target": "page:product" },
+  "ctaNote": "{minutes} minutes with {founder}, using a scenario like yours. No slides.",
+
+  "lifecycle": {
+    "title": "Follow one client from first contact to payment",
+    "hint": "Drag the slider or pick a stage",
+    "rangeLabel": "Stage in the client life cycle",
+    "previousLabel": "Previous stage",
+    "nextLabel": "Next stage",
+    "stageLabel": "Stage {n} of {total}",
+    "signalsTitle": "Who hears about it, without asking",
+    "toLabel": "To",
+    "stages": [
+      {
+        "name": "First contact",
+        "happens": "A client asks for two engineers for six weeks. Sales logs the request on the client record.",
+        "screen": { "id": "stage-1-request", "describes": "Haverland client record with the Line 3 request" },
+        "signals": [
+          { "to": "Operations", "title": "New request: Haverland Foods, 480 h", "line": "Line 3 PLC migration. See who could be free from next Monday." }
+        ]
+      },
+      {
+        "name": "Proposal",
+        "happens": "Sales and the delivery team build the proposal together: scope, effort and who could do the work. The client reviews it.",
+        "screen": { "id": "stage-2-scoping", "describes": "Scoping on the Line 3 deal, with its deadline" },
+        "signals": [
+          { "to": "Delivery lead", "title": "Help scope this proposal by Thursday", "line": "Client brief and sales notes are attached." },
+          { "to": "Operations", "title": "Deal likely to close this week: Haverland Foods", "line": "480 h from next Monday. Line up people before it is signed." }
+        ]
+      },
+      {
+        "name": "Planning",
+        "happens": "Operations pencils in people by skills and availability while the deal is still open. Conflicts and over-allocation show up straight away.",
+        "screen": { "id": "stage-3-planning", "describes": "Allocation grid with two engineers pencilled in" },
+        "signals": [
+          { "to": "Account manager", "title": "2 people pencilled in for Haverland Foods", "line": "Jonas De Smet and Elise Vandamme, from next Monday. Tell the client who could start." },
+          { "to": "Engineer", "title": "Possible assignment from next Monday", "line": "Line 3 PLC migration, Haverland Foods. Pencilled in, not confirmed." }
+        ]
+      },
+      {
+        "name": "Project",
+        "happens": "The client signs online. The deal becomes a project with the scope and budget that were sold, and the pencilled-in people are confirmed.",
+        "screen": { "id": "stage-4-project", "describes": "The new project with scope, budget, milestones and team" },
+        "signals": [
+          { "to": "Engineer", "title": "You are confirmed on Line 3 PLC migration", "line": "6 weeks, 40 h a week. Client contact: Ann Lievens." },
+          { "to": "Finance", "title": "Proposal signed: Haverland Foods, €49,200", "line": "Billing terms and client billing details are filled in." }
+        ]
+      },
+      {
+        "name": "Time",
+        "happens": "Engineers log hours. Managers approve them, and the client approves from a link.",
+        "screen": { "id": "stage-5-variance", "describes": "A project at 460 of 400 budgeted hours" },
+        "signals": [
+          { "to": "Account manager", "title": "Hours over budget: Packaging line commissioning", "line": "460 of 400 h. Talk to the client before the next invoice." }
+        ]
+      },
+      {
+        "name": "Invoice",
+        "happens": "A billing moment is reached. The invoice is prepared from approved hours and goes out through your accounting tool.",
+        "screen": { "id": "stage-6-invoice", "describes": "An invoice prepared from last month's approved hours" },
+        "signals": [
+          { "to": "Billing owner", "title": "Prepare invoice: Packaging line commissioning", "line": "Last month's approved hours. Lines, rates and client details are filled in." }
+        ]
+      },
+      {
+        "name": "Payment",
+        "happens": "Payments come back from the accounting tool. The project closes against its budget.",
+        "screen": { "id": "stage-7-receivables", "describes": "Receivables with one overdue invoice" },
+        "signals": [
+          { "to": "Account manager", "title": "Invoice 30 days overdue: Haverland Foods", "line": "€22,651.20. Mention it before proposing new work." },
+          { "to": "Owner", "title": "Line 1 safety retrofit closed at 38% margin", "line": "Target was 40%. See where the hours went." }
+        ]
+      }
+    ]
+  },
+
+  "platform": {
+    "label": "One platform",
+    "items": ["CRM and proposals", "Resource planning", "Projects", "Timesheets and approvals", "Invoicing and margins", "Client portal"]
+  },
+  "facts": {
+    "label": "About Implesta",
+    "items": ["For firms of {firmSize} that sell their people's time", "Built in Belgium", "Prepares invoices for your accounting tool"]
+  },
+
+  "pullPush": {
+    "h2": "Silos are not about tools. They are about who finds out, and when.",
+    "todayTitle": "Today, you go looking",
+    "today": [
+      "You ask a colleague in another team, and wait",
+      "You search a mailbox or open someone else's tool",
+      "You find out about the overrun at invoice time",
+      "Mostly, you don't know what you don't know"
+    ],
+    "withTitle": "With Implesta, it comes to you",
+    "with": [
+      "What affects your work reaches you when it happens",
+      "It appears where you already work, next to the client or project it concerns",
+      "Only what matters to your role, so nothing gets buried",
+      "Every team works from the same flow, from first contact to payment"
+    ]
+  },
+
+  "outcomes": {
+    "h2": "What changes when the right people know in time",
+    "items": [
+      { "title": "Smoother operations", "text": "Operations hears a deal is about to close and lines up people before the contract is signed. Engineers see where they are pencilled in, and when it is confirmed.", "outcome": "People planned on time, fewer surprises" },
+      { "title": "Smoother sales", "text": "The account manager hears when hours run over budget or an invoice goes overdue, before the next client call.", "outcome": "Renewals at the right moment, no awkward calls" },
+      { "title": "Faster payment", "text": "A billing moment tells the billing owner to prepare the invoice, with the lines filled in. An overdue invoice reaches the account manager.", "outcome": "Invoices out sooner, paid sooner" }
+    ]
+  },
+
+  "margin": {
+    "h2": "And you see margin while the work is running",
+    "text": "Hours, rates and expenses meet the budget every day. When a project drifts, you know in week three, not at the final invoice.",
+    "link": { "label": "How invoicing and margins work", "target": "page:product-invoicing" },
+    "screen": { "id": "home-margin", "describes": "Portfolio margin view across projects" }
+  },
+
+  "founder": {
+    "h2": "Built by someone who knows the problem",
+    "text": "[[Three sentences from Bert: what he saw in services firms, why the existing tools fell short, why he built Implesta.]]",
+    "byline": "{founder}, founder · Belgium",
+    "link": { "label": "About Implesta", "target": "page:about" }
+  },
+
+  "switching": {
+    "h2": "Switching takes {onboardingTime}, and we do the heavy part",
+    "items": [
+      { "title": "We import your data", "text": "Clients, contacts, open deals, people and rates, from your current tools or spreadsheets." },
+      { "title": "Your accounting stays", "text": "Implesta prepares the invoice. Your accounting tool still numbers, sends and books it." },
+      { "title": "Your team is shown how", "text": "[[Onboarding format: sessions, duration, who attends.]]" }
+    ]
+  },
+
+  "price": {
+    "h2": "From {price} per user per month",
+    "text": "Everything included. Prices exclude VAT.",
+    "link": { "label": "See pricing", "target": "page:pricing" }
+  },
+
+  "faq": {
+    "h2": "Questions owners ask",
+    "items": [
+      { "q": "Where is our data stored?", "a": "{hosting}. More on the [security page](page:security)." },
+      { "q": "Does it work with our accounting tool?", "a": "Implesta prepares the invoice; your accounting tool numbers, sends and books it. Connected today: {accountingTools}. Any other tool works through a manual route: mark the invoice as sent and type its number." },
+      { "q": "How long is the contract?", "a": "{contract}." },
+      { "q": "What happens to our current data?", "a": "We import clients, contacts, open deals, people and rates from spreadsheets or your current tools. Switching takes {onboardingTime}." },
+      { "q": "Can my team use it in Dutch or French?", "a": "{appLanguages}." }
+    ]
+  },
+
+  "final": {
+    "h2": "See it with a project like yours",
+    "text": "{minutes} minutes with {founder}: your current setup, Implesta with your kind of project, price and next steps."
+  }
+}

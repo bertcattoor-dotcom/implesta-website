@@ -1,0 +1,78 @@
+/* Design tokens, copied from the Resource Flow / Implesta Style Book v2.1 (tokens.json).
+   Same values as the app. Change a value here and it changes everywhere on the site. */
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/inter-latin-wght-normal.woff2') format('woff2'), local('Inter');
+}
+
+@font-face {
+  font-family: 'Outfit';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/outfit-latin-600-normal.woff2') format('woff2'), local('Outfit SemiBold'), local('Outfit');
+}
+
+:root {
+  /* Colour */
+  --canvas: #f8fafc;
+  --surface: #ffffff;
+  --border: #e2e8f0;
+  --border-strong: #cbd5e1;
+  --divider: #f1f5f9;
+  --text: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --track: #cbd5e1;
+  --nav: #0f172a;
+  --nav-text-secondary: #cbd5e1;
+  --primary: #155dfc;
+  --primary-hover: #1447e6;
+  --primary-press: #1240c9;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --danger-text: #b91c1c;
+  --warning-text: #b45309;
+
+  /* Type */
+  --font-display: 'Outfit', 'Inter Display', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --text-body: 1.125rem;      /* 18px */
+  --text-small: 0.9375rem;    /* 15px */
+  --text-xsmall: 0.875rem;    /* 14px */
+  --text-h1: clamp(2.25rem, 1.2rem + 3.6vw, 3.75rem);
+  --text-h2: clamp(1.75rem, 1.3rem + 1.6vw, 2.5rem);
+  --text-h3: 1.25rem;
+  --leading-tight: 1.1;
+  --leading-body: 1.6;
+  --measure: 40rem;
+
+  /* Shape */
+  --radius: 12px;
+  --radius-md: 8px;
+  --radius-sm: 4px;
+  --shadow-card: 0 1px 2px rgba(15, 23, 42, 0.05);
+  --shadow-float: 0 10px 24px rgba(15, 23, 42, 0.10);
+
+  /* Space */
+  --container: 1200px;
+  --gutter: 24px;
+  --section: 128px;
+  --section-small: 96px;
+
+  /* Motion */
+  --ease: 200ms ease;
+}
+
+@media (max-width: 720px) {
+  :root {
+    --gutter: 16px;
+    --section: 80px;
+    --section-small: 64px;
+  }
+}

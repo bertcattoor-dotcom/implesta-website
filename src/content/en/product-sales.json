@@ -1,0 +1,34 @@
+{
+  "title": "Sales and proposals: CRM, scoping and e-signature",
+  "description": "A pipeline, client records and proposals built with your delivery team, signed online. Operations hears about new work before it is promised.",
+  "primaryQuery": "CRM and proposal software for consultancies",
+  "navLabel": "Sales and proposals",
+  "teaser": "Pipeline, client records, proposals scoped with delivery, signed online.",
+  "h1": "Win work that delivery can actually deliver",
+  "lead": "Sales and the people who will do the work build the proposal together, and operations hears about new work before it is promised. The client signs online, and nothing has to be typed again.",
+  "heroScreen": { "id": "product-sales-hero", "describes": "Sales pipeline by stage" },
+  "features": [
+    { "title": "A pipeline you can trust", "text": "Deals move from lead to won, with their value, probability and expected start. Client records keep contacts, notes and every call, meeting and email in one timeline. Duplicates are found and merged.", "screen": { "id": "product-sales-pipeline", "describes": "Deal board and client record" } },
+    { "title": "Scope it with the delivery team", "text": "Ask a delivery lead to estimate the work, with a brief and a deadline. They break it down into phases, roles and hours before anything is signed.", "screen": { "id": "product-sales-scoping", "describes": "Scoping a deal with phases, roles and hours" } },
+    { "title": "Proposals clients sign online", "text": "Build proposals from your own services and rates, with discounts and VAT calculated for you. The client reviews them from a link, asks for changes or signs, and each signature is recorded with name, time and a checksum of the document.", "screen": { "id": "product-sales-proposal", "describes": "Proposal review and signature" } },
+    { "title": "From won deal to project in one step", "text": "A won deal becomes a project with the scope, budget and bookings that were agreed. Pencilled-in people are confirmed in the same step.", "screen": { "id": "product-sales-convert", "describes": "Converting a won deal into a project" } }
+  ],
+  "signals": {
+    "h2": "Who hears about it",
+    "text": "Sales moves, and the rest of the firm knows without a meeting.",
+    "items": [
+      { "to": "Operations", "title": "New request: Haverland Foods, 480 h", "line": "Line 3 PLC migration. See who could be free from next Monday." },
+      { "to": "Delivery lead", "title": "Help scope this proposal by Thursday", "line": "Client brief and sales notes are attached." },
+      { "to": "Finance", "title": "Proposal signed: Haverland Foods, €49,200", "line": "Billing terms and client billing details are filled in." }
+    ]
+  },
+  "details": {
+    "h2": "The details",
+    "items": [
+      { "term": "Pipeline stages", "value": "Lead, qualified, proposal, negotiation, won, lost, each with a default probability you can change per deal." },
+      { "term": "Client records", "value": "Organisations with headquarters and site addresses and enterprise number, contacts with role and notes." },
+      { "term": "Proposals", "value": "Numbered and versioned, with a validity date, terms and conditions, and a PDF." },
+      { "term": "Signatures", "value": "Signer name, title, email, time and a SHA-256 checksum of the signed document." }
+    ]
+  }
+}

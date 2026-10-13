@@ -1,0 +1,19 @@
+{
+  "skip": "Skip to content",
+  "home": "Implesta home",
+  "mainNav": "Main",
+  "logIn": "Log in",
+  "bookDemo": "Book a demo",
+  "openMenu": "Open menu",
+  "nextInFlow": "Next in the flow",
+  "step": "Step",
+  "to": "To",
+  "footer": {
+    "tagline": "Every team knows what they need to know.",
+    "product": "Product",
+    "for": "Who it's for",
+    "company": "Company",
+    "legal": "Legal",
+    "enterpriseNumber": "Enterprise number"
+  }
+}

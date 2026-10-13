@@ -1,0 +1,11 @@
+{
+  "title": "Terms",
+  "description": "The terms that apply to the Implesta service.",
+  "primaryQuery": "Implesta terms",
+  "navLabel": "Terms",
+  "h1": "Terms",
+  "lead": "[[Terms of service, to be provided and reviewed by a lawyer before launch.]]",
+  "sections": [
+    { "h2": "Related", "paragraphs": ["How we handle personal data: [privacy](page:privacy). How customer data is stored and protected: [security and data](page:security)."] }
+  ]
+}

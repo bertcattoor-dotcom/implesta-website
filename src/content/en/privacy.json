@@ -1,0 +1,15 @@
+{
+  "title": "Privacy",
+  "description": "What this website collects, why, and what you can ask us. No cookies, no tracking across sites.",
+  "primaryQuery": "Implesta privacy",
+  "navLabel": "Privacy",
+  "h1": "Privacy",
+  "lead": "This page covers implesta.com, the website. [[Have this page reviewed by a lawyer before launch, and add the privacy terms for the Implesta app.]]",
+  "sections": [
+    { "h2": "Who we are", "paragraphs": ["{legalName}, enterprise number {enterpriseNumber}. Contact: {email}."] },
+    { "h2": "Visitor statistics", "paragraphs": ["We count visits with Plausible Analytics, which sets no cookies and stores no personal data. We see which pages are read, from which country and which website a visitor came from, never who you are. Because nothing is stored on your device, there is no cookie banner."] },
+    { "h2": "When you book a demo", "paragraphs": ["We ask for your name, work email and team size, so we can prepare the call. Bookings are handled by Cal.com. [[Where Cal.com stores the data, and how long we keep it.]]"] },
+    { "h2": "Your rights", "paragraphs": ["You can ask what we hold about you, have it corrected or deleted, at {email}. You can also complain to the Belgian Data Protection Authority."] },
+    { "h2": "Data in the Implesta app", "paragraphs": ["How customer data is stored and protected in the app itself is described on [security and data](page:security)."] }
+  ]
+}

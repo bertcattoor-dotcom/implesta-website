@@ -1,0 +1,19 @@
+{
+  "title": "Your demo is booked",
+  "description": "Your Implesta demo is booked. The calendar invite is on its way.",
+  "primaryQuery": "Implesta demo booked",
+  "navLabel": "Booked",
+  "h1": "Your demo is booked",
+  "lead": "The calendar invite is on its way to your inbox. Talk soon.",
+  "prepareTitle": "To get the most out of it",
+  "prepare": [
+    "Think of one recent project or placement that went less well than it should have",
+    "Note which tools your sales, operations and finance teams use today",
+    "Invite whoever else would use Implesta, if they can join"
+  ],
+  "links": [
+    { "page": "product", "title": "Look around the product", "text": "One flow from first contact to final payment." },
+    { "page": "pricing", "title": "Check the pricing", "text": "One price per user, everything included." },
+    { "page": "security", "title": "Forward the security page", "text": "For your finance and IT leads." }
+  ]
+}
