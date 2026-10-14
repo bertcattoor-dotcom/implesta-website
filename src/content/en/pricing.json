@@ -1,7 +1,7 @@
 {
   "title": "Pricing",
   "description": "{price} per full user and {teamPrice} per team member, per month. CRM, planning, timesheets, invoicing and margins included. Prices exclude VAT.",
-  "primaryQuery": "Implesta pricing",
+  "primaryQuery": "implesta pricing",
   "navLabel": "Pricing",
   "teaser": "{price} per full user, {teamPrice} per team member.",
   "h1": "Two prices, everything included",
@@ -39,6 +39,6 @@
   },
   "final": {
     "h2": "Talk it through with your own numbers",
-    "text": "{minutes} minutes with {founder}, including what Implesta would cost for your team."
+    "text": "{minutes} minutes with {founder}, including what implesta would cost for your team."
   }
 }

@@ -1,11 +1,11 @@
-// Company facts: the single source for everything the site states about Implesta.
+// Company facts: the single source for everything the site states about implesta.
 // Pages, footer, pricing and structured data all read from here.
 //
 // Anything written as [[...]] is a placeholder. It shows highlighted in previews,
 // and `npm run check:launch` fails while any placeholder is left on the site.
 
 export const company = {
-  name: 'Implesta',
+  name: 'implesta',
   legalName: '[[Registered legal name]]',
   enterpriseNumber: '[[Enterprise number]]',
   address: {
@@ -30,7 +30,7 @@ export const company = {
     launchWithoutPhoto: true,
   },
 
-  // Booking: the Cal.com event Implesta uses for demos, e.g. 'implesta/demo'.
+  // Booking: the Cal.com event implesta uses for demos, e.g. 'implesta/demo'.
   // While null, the demo page shows a placeholder instead of the calendar.
   booking: {
     calLink: null,

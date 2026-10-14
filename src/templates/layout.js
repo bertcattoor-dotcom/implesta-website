@@ -71,7 +71,7 @@ ${analytics}
 <a class="skip-link" href="#main">${esc(ui.skip)}</a>
 <header class="site-header">
   <div class="container site-header__inner">
-    <a class="site-header__logo" href="${pathFor('home', lang)}" aria-label="${esc(ui.home)}"><img src="/brand/implesta-logo.svg" alt="Implesta" width="187" height="43"></a>
+    <a class="site-header__logo" href="${pathFor('home', lang)}" aria-label="${esc(ui.home)}"><img src="/brand/implesta-logo.svg" alt="implesta" width="187" height="43"></a>
     ${isDemo ? '<span class="site-nav"></span>' : html`<nav class="site-nav" aria-label="${esc(ui.mainNav)}">${navItems.map(navLink)}</nav>`}
     <div class="site-header__aside">
       ${langSwitch}
@@ -90,7 +90,7 @@ ${body}
   <div class="container">
     <div class="site-footer__grid">
       <div class="site-footer__brand">
-        <img src="/brand/implesta-logo.svg" alt="Implesta" width="160" height="37" loading="lazy">
+        <img src="/brand/implesta-logo.svg" alt="implesta" width="160" height="37" loading="lazy">
         <span>${esc(ui.footer.tagline)}</span>
       </div>
       ${footerColumn('product')}

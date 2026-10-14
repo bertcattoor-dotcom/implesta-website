@@ -1,11 +1,11 @@
 {
-  "title": "Implesta for engineering consultancies",
+  "title": "implesta for engineering consultancies",
   "description": "Fixed-price and time-based engineering projects, planned by skill, invoiced by milestone, with margin per project. Built for engineering firms.",
   "primaryQuery": "project management software for engineering consultancies",
   "navLabel": "Engineering consultancies",
   "teaser": "Fixed-price and time-based projects, planned by skill, invoiced by milestone.",
   "h1": "Engineering projects that close at the margin you sold",
-  "lead": "Your engineers work on fixed-price projects and on time and materials, often both at once. Implesta plans them by skill, invoices each milestone when it is reached, and shows the margin of every project while there is still time to act.",
+  "lead": "Your engineers work on fixed-price projects and on time and materials, often both at once. implesta plans them by skill, invoices each milestone when it is reached, and shows the margin of every project while there is still time to act.",
   "situations": {
     "h2": "Where it goes wrong today",
     "items": [

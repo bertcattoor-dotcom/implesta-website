@@ -1,10 +1,10 @@
 {
-  "title": "Implesta: sales, planning, time and invoicing in one place",
+  "title": "implesta: sales, planning, time and invoicing in one place",
   "description": "One platform for firms that sell their people's time. Each team hears what happens elsewhere that affects their work, from first contact to final payment.",
   "primaryQuery": "professional services automation software",
   "navLabel": "Home",
   "h1": "Every team knows what they need to know. Nobody has to chase.",
-  "lead": "Implesta is one platform for sales, planning, timesheets and invoicing, built for firms that sell their people's time. It tells each person what happens elsewhere that affects their work, the moment it happens.",
+  "lead": "implesta is one platform for sales, planning, timesheets and invoicing, built for firms that sell their people's time. It tells each person what happens elsewhere that affects their work, the moment it happens.",
   "secondaryCta": { "label": "See the product", "target": "page:product" },
   "ctaNote": "{minutes} minutes with {founder}, using a scenario like yours. No slides.",
 
@@ -86,7 +86,7 @@
     "items": ["CRM and proposals", "Resource planning", "Projects", "Timesheets and approvals", "Invoicing and margins", "Client portal"]
   },
   "facts": {
-    "label": "About Implesta",
+    "label": "About implesta",
     "items": ["For firms of {firmSize} that sell their people's time", "Built in Belgium", "Prepares invoices for your accounting tool"]
   },
 
@@ -99,7 +99,7 @@
       "You find out about the overrun at invoice time",
       "Mostly, you don't know what you don't know"
     ],
-    "withTitle": "With Implesta, it comes to you",
+    "withTitle": "With implesta, it comes to you",
     "with": [
       "What affects your work reaches you when it happens",
       "It appears where you already work, next to the client or project it concerns",
@@ -126,16 +126,16 @@
 
   "founder": {
     "h2": "Built by someone who knows the problem",
-    "text": "[[Three sentences from Bert: what he saw in services firms, why the existing tools fell short, why he built Implesta.]]",
+    "text": "[[Three sentences from Bert: what he saw in services firms, why the existing tools fell short, why he built implesta.]]",
     "byline": "{founder}, founder · Belgium",
-    "link": { "label": "About Implesta", "target": "page:about" }
+    "link": { "label": "About implesta", "target": "page:about" }
   },
 
   "switching": {
     "h2": "Switching takes {onboardingTime}, and we do the heavy part",
     "items": [
       { "title": "We import your data", "text": "Clients, contacts, open deals, people and rates, from your current tools or spreadsheets." },
-      { "title": "Your accounting stays", "text": "Implesta prepares the invoice. Your accounting tool still numbers, sends and books it." },
+      { "title": "Your accounting stays", "text": "implesta prepares the invoice. Your accounting tool still numbers, sends and books it." },
       { "title": "Your team is shown how", "text": "One training session per role, a short video for team members, and 30 days of support after you go live." }
     ]
   },
@@ -150,7 +150,7 @@
     "h2": "Questions owners ask",
     "items": [
       { "q": "Where is our data stored?", "a": "{hosting}. More on the [security page](page:security)." },
-      { "q": "Does it work with our accounting tool?", "a": "Implesta prepares the invoice; your accounting tool numbers, sends and books it. Connected today: {accountingTools}. Any other tool works through a manual route: mark the invoice as sent and type its number." },
+      { "q": "Does it work with our accounting tool?", "a": "implesta prepares the invoice; your accounting tool numbers, sends and books it. Connected today: {accountingTools}. Any other tool works through a manual route: mark the invoice as sent and type its number." },
       { "q": "How long is the contract?", "a": "{contract}." },
       { "q": "What happens to our current data?", "a": "We import clients, contacts, open deals, people and rates from our spreadsheet templates, as part of onboarding. Moving history out of another system is quoted separately. Switching takes {onboardingTime}." },
       { "q": "Can my team use it in Dutch or French?", "a": "{appLanguages}." }
@@ -159,6 +159,6 @@
 
   "final": {
     "h2": "See it with a project like yours",
-    "text": "{minutes} minutes with {founder}: your current setup, Implesta with your kind of project, price and next steps."
+    "text": "{minutes} minutes with {founder}: your current setup, implesta with your kind of project, price and next steps."
   }
 }

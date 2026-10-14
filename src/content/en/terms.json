@@ -1,20 +1,20 @@
 {
   "title": "Terms",
-  "description": "The terms that apply when a company uses Implesta: seats, fees, contract length, your data, availability and liability.",
-  "primaryQuery": "Implesta terms of service",
+  "description": "The terms that apply when a company uses implesta: seats, fees, contract length, your data, availability and liability.",
+  "primaryQuery": "implesta terms of service",
   "navLabel": "Terms",
   "h1": "Terms of service",
-  "lead": "Last updated [[publication date]]. These terms apply when a company uses Implesta. Together with the order or proposal you accept and our data processing agreement, they form the whole agreement between us.",
+  "lead": "Last updated [[publication date]]. These terms apply when a company uses implesta. Together with the order or proposal you accept and our data processing agreement, they form the whole agreement between us.",
   "sections": [
     { "h2": "1. Who these terms are between", "paragraphs": [
-      "These terms are between {legalName} (\"Implesta\", \"we\"), enterprise number {enterpriseNumber}, and the company that subscribes to Implesta (\"you\", the customer). Implesta is a service for businesses only. The person who accepts these terms confirms they may do so on the company's behalf."
+      "These terms are between {legalName} (\"implesta\", \"we\"), enterprise number {enterpriseNumber}, and the company that subscribes to implesta (\"you\", the customer). implesta is a service for businesses only. The person who accepts these terms confirms they may do so on the company's behalf."
     ] },
     { "h2": "2. The service", "paragraphs": [
-      "Implesta is a web application for sales, planning, timesheets and invoice preparation, as described on implesta.com. We improve it continuously. We may change or remove features, but we won't take away core functionality you rely on during a paid period without telling you at least 30 days in advance."
+      "implesta is a web application for sales, planning, timesheets and invoice preparation, as described on implesta.com. We improve it continuously. We may change or remove features, but we won't take away core functionality you rely on during a paid period without telling you at least 30 days in advance."
     ] },
     { "h2": "3. Users and seats", "paragraphs": [
       "There are two seat types, as described on [pricing](page:pricing): full users, who sell, plan other people, approve, or work in finance or admin, and team members, who log their time and leave and work on their own projects and tasks. You keep each person's seat type accurate. The minimum is {minimumFullUsers} full users.",
-      "You are responsible for who you give access to and for what they do in Implesta. Keep sign-in details secret, use two-factor authentication where the app requires it, and tell us at once at {email} if you suspect misuse."
+      "You are responsible for who you give access to and for what they do in implesta. Keep sign-in details secret, use two-factor authentication where the app requires it, and tell us at once at {email} if you suspect misuse."
     ] },
     { "h2": "4. Fees and payment", "paragraphs": [
       "Fees are those on our pricing page or in the proposal you accepted, in euro, excluding VAT. We invoice in advance, monthly or yearly. Invoices are payable by bank transfer within 30 days.",
@@ -31,21 +31,21 @@
       "Setup, one import from our spreadsheet templates, a training session per role and 30 days of support after going live are included. Moving data or history out of another system is extra work, which we quote in writing before we start."
     ] },
     { "h2": "7. Your data", "paragraphs": [
-      "The data you put into Implesta is yours. We use it only to provide the service to you, as set out in our [data processing agreement](page:dpa), and in our [privacy policy](page:privacy). We may use anonymous, aggregated usage figures that can't identify you or any person, to improve Implesta.",
+      "The data you put into implesta is yours. We use it only to provide the service to you, as set out in our [data processing agreement](page:dpa), and in our [privacy policy](page:privacy). We may use anonymous, aggregated usage figures that can't identify you or any person, to improve implesta.",
       "You can export your data at any time. When the contract ends, we keep it available for export for 30 days and then delete it; it disappears from our backups when they expire."
     ] },
     { "h2": "8. Acceptable use", "paragraphs": [
-      "Don't use Implesta for anything unlawful, don't upload content you have no right to use, don't try to break or test its security without our written permission, don't copy or reverse-engineer it beyond what the law allows, and don't resell access. We may suspend access that puts the service or other customers at risk, and tell you why."
+      "Don't use implesta for anything unlawful, don't upload content you have no right to use, don't try to break or test its security without our written permission, don't copy or reverse-engineer it beyond what the law allows, and don't resell access. We may suspend access that puts the service or other customers at risk, and tell you why."
     ] },
     { "h2": "9. Availability and support", "paragraphs": [
-      "We do our best to keep Implesta available and fast. We announce planned maintenance in advance and try to do it outside office hours. We don't currently guarantee a specific uptime, unless agreed in writing.",
+      "We do our best to keep implesta available and fast. We announce planned maintenance in advance and try to do it outside office hours. We don't currently guarantee a specific uptime, unless agreed in writing.",
       "Support is by email at {email} on Belgian working days. We tell you without undue delay, and within 72 hours, if a security incident affects your data."
     ] },
     { "h2": "10. Other services you connect", "paragraphs": [
-      "Implesta can connect to services from other companies, such as accounting tools, calendars, Slack and AI providers. Their own terms apply to them, and we are not responsible for their availability or for what they do with data you choose to send them. Suggestions from the optional AI features are suggestions: check them before relying on them."
+      "implesta can connect to services from other companies, such as accounting tools, calendars, Slack and AI providers. Their own terms apply to them, and we are not responsible for their availability or for what they do with data you choose to send them. Suggestions from the optional AI features are suggestions: check them before relying on them."
     ] },
     { "h2": "11. Intellectual property", "paragraphs": [
-      "Implesta, its software and its content belong to us. During your subscription you may use Implesta for your own business, within these terms. If you send us ideas or feedback, we may use them freely, without obligation to you."
+      "implesta, its software and its content belong to us. During your subscription you may use implesta for your own business, within these terms. If you send us ideas or feedback, we may use them freely, without obligation to you."
     ] },
     { "h2": "12. Confidentiality", "paragraphs": [
       "Each of us keeps the other's non-public information confidential and uses it only for this contract, during the contract and for three years after it. This doesn't cover information that is already public, that was already known, or that the law requires to be disclosed."

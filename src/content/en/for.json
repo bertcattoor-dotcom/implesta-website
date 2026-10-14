@@ -1,10 +1,10 @@
 {
-  "title": "Who Implesta is for",
-  "description": "Implesta is built for firms of 20 to 150 people that sell their people's time: technical secondment, IT services and engineering consultancies.",
+  "title": "Who implesta is for",
+  "description": "implesta is built for firms of 20 to 150 people that sell their people's time: technical secondment, IT services and engineering consultancies.",
   "primaryQuery": "software for firms that sell billable hours",
   "navLabel": "Who it's for",
   "h1": "For firms that sell their people's time",
-  "lead": "Implesta fits firms of {firmSize} where a client request passes through several hands before it is paid: sold by one person, scoped by another, delivered by a team, invoiced by finance.",
+  "lead": "implesta fits firms of {firmSize} where a client request passes through several hands before it is paid: sold by one person, scoped by another, delivered by a team, invoiced by finance.",
   "common": {
     "h2": "What these firms have in common",
     "items": [

@@ -1,17 +1,17 @@
 {
   "title": "Privacy",
-  "description": "What personal data Implesta processes on its website and in its app, why, where it is stored, who receives it, and what you can ask us.",
-  "primaryQuery": "Implesta privacy policy",
+  "description": "What personal data implesta processes on its website and in its app, why, where it is stored, who receives it, and what you can ask us.",
+  "primaryQuery": "implesta privacy policy",
   "navLabel": "Privacy",
   "h1": "Privacy",
-  "lead": "Last updated [[publication date]]. This policy covers implesta.com and the Implesta app: what personal data we process, why, and what you can ask us.",
+  "lead": "Last updated [[publication date]]. This policy covers implesta.com and the implesta app: what personal data we process, why, and what you can ask us.",
   "sections": [
     { "h2": "Who we are", "paragraphs": [
-      "{legalName} (\"Implesta\", \"we\"), enterprise number {enterpriseNumber}, a company registered in Belgium. For anything about your data, write to {email}."
+      "{legalName} (\"implesta\", \"we\"), enterprise number {enterpriseNumber}, a company registered in Belgium. For anything about your data, write to {email}."
     ] },
     { "h2": "Our two roles", "paragraphs": [
       "For our website, our sales contacts and our customers' account and billing details, we decide how personal data is used. For those, we are the **controller**.",
-      "For the data our customers put into Implesta, such as their clients, contacts, people, projects, hours and invoices, the customer is the controller. We process that data only on the customer's instructions, under a data processing agreement, and we are the **processor**. If you work for one of our customers, or are a client of one, please contact that company first about your data. We help them answer you."
+      "For the data our customers put into implesta, such as their clients, contacts, people, projects, hours and invoices, the customer is the controller. We process that data only on the customer's instructions, under a data processing agreement, and we are the **processor**. If you work for one of our customers, or are a client of one, please contact that company first about your data. We help them answer you."
     ] },
     { "h2": "When you visit implesta.com", "paragraphs": [
       "We count visits with Plausible Analytics, which sets no cookies and stores no personal data. We see which pages are read, from which country, and which website a visitor came from, never who you are. Because nothing is stored on your device, there is no cookie banner.",
@@ -22,24 +22,24 @@
       "We use these details to hold the demo and follow up on it, because you asked us to (steps before a possible contract) and because it is in our legitimate interest to follow up with companies that showed interest. If no contract follows, we delete your booking details within 12 months."
     ] },
     { "h2": "Our customers and their users", "paragraphs": [
-      "To give a customer's people access to Implesta, we process their name, work email, role, sign-in details (your password is stored only as a secure hash, never readable), [[two-factor settings, once two-factor authentication ships,]] and a log of actions in the app. For billing, we process the name and email of the customer's billing contact.",
+      "To give a customer's people access to implesta, we process their name, work email, role, sign-in details (your password is stored only as a secure hash, never readable), [[two-factor settings, once two-factor authentication ships,]] and a log of actions in the app. For billing, we process the name and email of the customer's billing contact.",
       "We do this to provide the service under our contract with the customer, to keep it secure, and to meet our accounting and tax obligations. Account data is deleted within 30 days after the contract ends. Invoices are kept as long as Belgian accounting and tax law requires."
     ] },
-    { "h2": "Data our customers store in Implesta", "paragraphs": [
-      "Each customer's data lives in its own database, on Google Cloud in Belgium (europe-west1). We use it only to provide Implesta to that customer, never for our own purposes, never for advertising, and we never sell it.",
+    { "h2": "Data our customers store in implesta", "paragraphs": [
+      "Each customer's data lives in its own database, on Google Cloud in Belgium (europe-west1). We use it only to provide implesta to that customer, never for our own purposes, never for advertising, and we never sell it.",
       "When a contract ends, the customer can export its data. We delete it within 30 days, and it disappears from our backups when they expire. How the data is protected is described on [security and data](page:security)."
     ] },
     { "h2": "Optional features that send data to other services", "paragraphs": [
       "These features are off until a customer's administrator switches them on, or until you connect your own account. The Admin settings in the app show which service receives which data.",
       "**Meeting summary:** meeting notes and action items are sent to Anthropic (Claude) to draft a summary.",
       "**Project health rating:** a project manager's status notes and the project's budget, hours and dates are sent to Google (Gemini) to suggest a rating. [[Region, once moved to Vertex AI in the EU.]]",
-      "**Calendar sync:** if you connect your Google or Microsoft calendar, Implesta exchanges your bookings with that calendar. See the section on calendar data below.",
-      "**Slack:** if a customer connects its own Slack workspace, Implesta posts the notifications that customer chooses there, such as leave requests."
+      "**Calendar sync:** if you connect your Google or Microsoft calendar, implesta exchanges your bookings with that calendar. See the section on calendar data below.",
+      "**Slack:** if a customer connects its own Slack workspace, implesta posts the notifications that customer chooses there, such as leave requests."
     ] },
     { "h2": "Google and Microsoft calendar data", "paragraphs": [
-      "When you connect a calendar, Implesta [[exact access: which calendar data Implesta reads and writes, matching the scopes requested]]. We use this data only to keep your Implesta bookings and your calendar in step.",
-      "We don't use calendar data for advertising, don't sell it, don't use it to train AI models, and don't transfer it to others except as needed to provide this feature, for security, or when the law requires it. People at Implesta don't read it unless you ask us to for support. You can disconnect your calendar at any time in your profile; Implesta then stops syncing and deletes the connection details.",
-      "Implesta's use and transfer of information received from Google APIs to any other app will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements."
+      "When you connect a calendar, implesta [[exact access: which calendar data implesta reads and writes, matching the scopes requested]]. We use this data only to keep your implesta bookings and your calendar in step.",
+      "We don't use calendar data for advertising, don't sell it, don't use it to train AI models, and don't transfer it to others except as needed to provide this feature, for security, or when the law requires it. People at implesta don't read it unless you ask us to for support. You can disconnect your calendar at any time in your profile; implesta then stops syncing and deletes the connection details.",
+      "implesta's use and transfer of information received from Google APIs to any other app will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements."
     ] },
     { "h2": "Who else receives personal data", "paragraphs": [
       "We use these service providers. Each processes data only for us, under a written agreement.",

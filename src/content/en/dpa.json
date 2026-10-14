@@ -1,27 +1,27 @@
 {
   "title": "Data processing agreement",
-  "description": "How Implesta processes personal data for its customers under Article 28 GDPR: instructions, security, subprocessors, breaches, deletion, audits.",
-  "primaryQuery": "Implesta data processing agreement GDPR",
+  "description": "How implesta processes personal data for its customers under Article 28 GDPR: instructions, security, subprocessors, breaches, deletion, audits.",
+  "primaryQuery": "implesta data processing agreement GDPR",
   "navLabel": "Data processing agreement",
   "h1": "Data processing agreement",
   "lead": "Last updated [[publication date]]. This agreement is part of our [terms of service](page:terms). It applies automatically to every customer and sets out how we process personal data on your behalf, as Article 28 of the GDPR requires. If you need a signed copy, ask us at {email}.",
   "sections": [
     { "h2": "1. Roles", "paragraphs": [
-      "You, the customer, are the **controller** of the personal data you and your users put into Implesta. {legalName} (\"Implesta\", \"we\") is the **processor**: we process that data only to provide Implesta to you.",
+      "You, the customer, are the **controller** of the personal data you and your users put into implesta. {legalName} (\"implesta\", \"we\") is the **processor**: we process that data only to provide implesta to you.",
       "Words such as personal data, processing, data subject and personal data breach have the meaning they have in the General Data Protection Regulation (EU) 2016/679 (\"GDPR\")."
     ] },
     { "h2": "2. What we process", "paragraphs": [
-      "**Purpose:** providing Implesta as described in the terms: sales, planning, timesheets, invoice preparation, the client portal, signals, support and the security of the service.",
-      "**Data subjects:** your staff and contractors who use Implesta; your clients' and prospects' contacts; other people whose details you choose to store, such as suppliers.",
-      "**Types of personal data:** names, work email addresses, phone numbers, job titles, work addresses; for your staff also roles, skills, rates and costs, planned and logged hours, leave, and activity in the app; for contacts also notes and the history of your dealings with them. Implesta is not designed for special categories of personal data (such as health data). Don't store them in it, except where you need to record leave and the law allows you to.",
+      "**Purpose:** providing implesta as described in the terms: sales, planning, timesheets, invoice preparation, the client portal, signals, support and the security of the service.",
+      "**Data subjects:** your staff and contractors who use implesta; your clients' and prospects' contacts; other people whose details you choose to store, such as suppliers.",
+      "**Types of personal data:** names, work email addresses, phone numbers, job titles, work addresses; for your staff also roles, skills, rates and costs, planned and logged hours, leave, and activity in the app; for contacts also notes and the history of your dealings with them. implesta is not designed for special categories of personal data (such as health data). Don't store them in it, except where you need to record leave and the law allows you to.",
       "**Duration:** as long as your contract runs, plus the deletion period in section 9."
     ] },
     { "h2": "3. Your instructions", "paragraphs": [
-      "We process your personal data only on your documented instructions. Those instructions are the terms, this agreement, and the settings you choose in Implesta (for example switching an optional feature on). We tell you if we believe an instruction infringes the GDPR or other data protection law.",
+      "We process your personal data only on your documented instructions. Those instructions are the terms, this agreement, and the settings you choose in implesta (for example switching an optional feature on). We tell you if we believe an instruction infringes the GDPR or other data protection law.",
       "If EU or Belgian law requires us to process your data in another way, we tell you before we do so, unless that law forbids it."
     ] },
     { "h2": "4. Confidentiality", "paragraphs": [
-      "Everyone at Implesta and our subcontractors who can access your personal data is bound by confidentiality, and accesses it only as far as needed to provide or support the service."
+      "Everyone at implesta and our subcontractors who can access your personal data is bound by confidentiality, and accesses it only as far as needed to provide or support the service."
     ] },
     { "h2": "5. Security", "paragraphs": [
       "We take appropriate technical and organisational measures to protect your personal data, as required by Article 32 of the GDPR. The current measures are listed in Annex 2. We may improve them over time, but never lower the overall level of protection."
@@ -32,10 +32,10 @@
       "We remain responsible to you for our subprocessors' performance."
     ] },
     { "h2": "7. Transfers outside the EU", "paragraphs": [
-      "Your data in Implesta is stored in the EU. Where a subprocessor processes personal data outside the European Economic Area, we make sure the transfer is protected by an adequacy decision, such as the EU–US Data Privacy Framework, or by the European Commission's standard contractual clauses."
+      "Your data in implesta is stored in the EU. Where a subprocessor processes personal data outside the European Economic Area, we make sure the transfer is protected by an adequacy decision, such as the EU–US Data Privacy Framework, or by the European Commission's standard contractual clauses."
     ] },
     { "h2": "8. Helping you", "paragraphs": [
-      "Implesta lets you find, correct, export and delete the personal data it holds, so you can answer requests from data subjects. If a data subject contacts us directly, we pass the request to you without answering it ourselves, unless you ask us to.",
+      "implesta lets you find, correct, export and delete the personal data it holds, so you can answer requests from data subjects. If a data subject contacts us directly, we pass the request to you without answering it ourselves, unless you ask us to.",
       "We also help you, as far as reasonable, with your security obligations, data protection impact assessments and consultations with the supervisory authority."
     ] },
     { "h2": "9. Personal data breaches", "paragraphs": [
@@ -52,12 +52,12 @@
       "The liability rules in the terms apply to this agreement as well, except where the GDPR doesn't allow them to. If this agreement and the terms differ on how personal data is processed, this agreement applies."
     ] },
     { "h2": "Annex 1: Description of the processing", "paragraphs": [
-      "As set out in section 2. Processing takes place continuously while you use Implesta, and consists of storing, organising, displaying, sending notifications about, exporting and deleting personal data."
+      "As set out in section 2. Processing takes place continuously while you use implesta, and consists of storing, organising, displaying, sending notifications about, exporting and deleting personal data."
     ] },
     { "h2": "Annex 2: Security measures", "paragraphs": [
       "**Separation:** each customer's data lives in its own database.",
       "**Location:** app and databases on Google Cloud in Belgium (europe-west1); backups in the EU.",
-      "**Encryption:** data is encrypted in transit and at rest. Secrets such as integration credentials are additionally encrypted by Implesta.",
+      "**Encryption:** data is encrypted in transit and at rest. Secrets such as integration credentials are additionally encrypted by implesta.",
       "**Access:** access in the app follows each user's role; financial data only for people with finance access. [[Publish once it ships: two-factor authentication is required for administrators.]] Passwords are stored only as secure hashes.",
       "**Logging:** changes to clients, contacts, deals, proposals, invoices and profiles are recorded in an audit log that can't be edited.",
       "**Backups:** [[nightly backups kept 14 days, with 7 days of point-in-time recovery, once configured in production]].",

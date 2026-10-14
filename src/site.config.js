@@ -2,7 +2,7 @@
 
 export const site = {
   url: 'https://implesta.com',
-  name: 'Implesta',
+  name: 'implesta',
 
   // English lives at the root (/), Dutch at /nl/, French at /fr/.
   // A language is built, linked and listed in the sitemap only when `enabled` is true,

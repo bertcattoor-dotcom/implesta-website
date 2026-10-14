@@ -1,7 +1,7 @@
 {
   "title": "Security and data",
-  "description": "Where Implesta stores your data, who can see what, and how every change is recorded. The page to forward to your finance and IT leads.",
-  "primaryQuery": "Implesta security and GDPR",
+  "description": "Where implesta stores your data, who can see what, and how every change is recorded. The page to forward to your finance and IT leads.",
+  "primaryQuery": "implesta security and GDPR",
   "navLabel": "Security and data",
   "teaser": "Hosting, access by role, audit log and GDPR.",
   "h1": "Your data, who sees it, and what is recorded",
@@ -18,7 +18,7 @@
     { "term": "When you leave", "value": "You can export your data. We delete it within 30 days after the contract ends, and it disappears from backups when they expire." },
     { "term": "Incidents", "value": "If a security incident affects your data, we tell you without undue delay, and within 72 hours." },
     { "term": "Security testing", "value": "Our code, the libraries it uses and our cloud setup are scanned continuously by Aikido Security." },
-    { "term": "Certification", "value": "Implesta is not ISO 27001 or SOC 2 certified yet. Ask us how we work in the meantime; we walk you through it." },
+    { "term": "Certification", "value": "implesta is not ISO 27001 or SOC 2 certified yet. Ask us how we work in the meantime; we walk you through it." },
     { "term": "GDPR", "value": "Our [data processing agreement](page:dpa) is part of every contract. It lists our subprocessors and the security measures we take." }
   ],
   "final": {

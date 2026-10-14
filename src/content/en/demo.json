@@ -1,14 +1,14 @@
 {
   "title": "Book a demo",
-  "description": "Book a {minutes}-minute demo of Implesta with {founder}. Pick a time that suits you; you get a calendar invite straight away.",
-  "primaryQuery": "Implesta demo",
+  "description": "Book a {minutes}-minute demo of implesta with {founder}. Pick a time that suits you; you get a calendar invite straight away.",
+  "primaryQuery": "implesta demo",
   "navLabel": "Book a demo",
   "h1": "Book a {minutes}‑minute demo",
   "lead": "Pick a time that suits you. You get a calendar invite straight away.",
   "agendaTitle": "In the {minutes} minutes",
   "agenda": [
     "How you run sales, planning, time and invoicing today",
-    "Implesta, walked through with a project like yours",
+    "implesta, walked through with a project like yours",
     "Price, onboarding and next steps"
   ],
   "note": "No slides, no obligation. We use your details only to prepare the call; see [privacy](page:privacy).",
