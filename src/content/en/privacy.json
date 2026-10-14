@@ -22,7 +22,7 @@
       "We use these details to hold the demo and follow up on it, because you asked us to (steps before a possible contract) and because it is in our legitimate interest to follow up with companies that showed interest. If no contract follows, we delete your booking details within 12 months."
     ] },
     { "h2": "Our customers and their users", "paragraphs": [
-      "To give a customer's people access to Implesta, we process their name, work email, role, sign-in details (your password is stored only as a secure hash, never readable), two-factor settings and a log of actions in the app. For billing, we process the name and email of the customer's billing contact.",
+      "To give a customer's people access to Implesta, we process their name, work email, role, sign-in details (your password is stored only as a secure hash, never readable), [[two-factor settings, once two-factor authentication ships,]] and a log of actions in the app. For billing, we process the name and email of the customer's billing contact.",
       "We do this to provide the service under our contract with the customer, to keep it secure, and to meet our accounting and tax obligations. Account data is deleted within 30 days after the contract ends. Invoices are kept as long as Belgian accounting and tax law requires."
     ] },
     { "h2": "Data our customers store in Implesta", "paragraphs": [

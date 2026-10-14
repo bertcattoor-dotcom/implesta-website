@@ -13,7 +13,7 @@
     { "term": "Audit log", "value": "Every change to clients, contacts, deals, proposals, invoices and profiles is recorded in a log that can't be edited, and can be exported as CSV." },
     { "term": "Signed proposals", "value": "Each signature records the signer's name, title, email, time and a checksum of the signed document." },
     { "term": "Client access", "value": "Clients review proposals, follow projects and approve hours through secure links, without an account in your workspace." },
-    { "term": "Sign-in", "value": "Email and password, with two-factor authentication through an authenticator app. Two-factor is required for administrators." },
+    { "term": "Sign-in", "value": "Email and password. [[Publish once it ships: two-factor authentication through an authenticator app, required for administrators.]]" },
     { "term": "Backups", "value": "[[Publish once configured: backed up every night and kept for 14 days, with point-in-time recovery for the last 7 days, stored in the EU.]]" },
     { "term": "When you leave", "value": "You can export your data. We delete it within 30 days after the contract ends, and it disappears from backups when they expire." },
     { "term": "Incidents", "value": "If a security incident affects your data, we tell you without undue delay, and within 72 hours." },
