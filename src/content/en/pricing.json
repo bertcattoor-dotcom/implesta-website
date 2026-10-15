@@ -34,6 +34,7 @@
       { "q": "Is onboarding included?", "a": "{onboarding}." },
       { "q": "Is there a minimum?", "a": "{minimumSeats}." },
       { "q": "How long is the contract, and can we cancel?", "a": "{contract}." },
+      { "q": "Can we take our data with us?", "a": "Yes. An administrator can export all your data at any time: one CSV file per area, plus your attachments. When the contract ends, we keep your data available for export for 30 days before deleting it. More on the [security page](page:security)." },
       { "q": "How do you invoice us?", "a": "Monthly or yearly in advance. {payment}." }
     ]
   },
