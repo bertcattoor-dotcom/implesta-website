@@ -44,6 +44,8 @@ const fill = (text, lang) => String(text)
   .replaceAll('{billing}', company.pricing.billing)
   .replaceAll('{legalName}', company.legalName)
   .replaceAll('{enterpriseNumber}', company.enterpriseNumber)
+  .replaceAll('{supportEmail}', company.supportEmail)
+  .replaceAll('{privacyEmail}', company.privacyEmail)
   .replaceAll('{email}', company.email);
 
 // rich() with company facts filled in.

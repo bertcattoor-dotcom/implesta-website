@@ -15,10 +15,13 @@ export const company = {
     country: 'BE',
     countryName: 'Belgium',
   },
-  email: '[[Contact email, e.g. hello@implesta.com]]',
+  // All addresses are aliases of one mailbox (decided 16 Oct 2026).
+  email: 'hello@implesta.com', // general contact: About, footer, structured data
+  supportEmail: 'support@implesta.com', // support for customers (terms; the app's suspended page)
+  privacyEmail: 'privacy@implesta.com', // data requests and the DPA (privacy policy, DPA)
   linkedin: null, // company LinkedIn URL, used in structured data when set
 
-  appUrl: '[[App login URL, e.g. https://app.implesta.com]]',
+  appUrl: 'https://app.implesta.com', // the app's front door: asks for the workspace
 
   founder: {
     name: 'Bert Cattoor',

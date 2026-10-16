@@ -7,7 +7,7 @@
   "lead": "Last updated [[publication date]]. This policy covers implesta.com and the implesta app: what personal data we process, why, and what you can ask us.",
   "sections": [
     { "h2": "Who we are", "paragraphs": [
-      "{legalName} (\"implesta\", \"we\"), enterprise number {enterpriseNumber}, a company registered in Belgium. For anything about your data, write to {email}."
+      "{legalName} (\"implesta\", \"we\"), enterprise number {enterpriseNumber}, a company registered in Belgium. For anything about your data, write to {privacyEmail}."
     ] },
     { "h2": "Our two roles", "paragraphs": [
       "For our website, our sales contacts and our customers' account and billing details, we decide how personal data is used. For those, we are the **controller**.",
@@ -58,7 +58,7 @@
       "The website sets no cookies. The app uses one cookie that is strictly necessary to keep you signed in. It needs no consent, and it is never used for tracking."
     ] },
     { "h2": "Your rights", "paragraphs": [
-      "You can ask us what personal data we hold about you, and ask us to correct it, delete it, restrict its use, or give it to you in a portable format. You can object to processing based on our legitimate interest. Write to {email}; we answer within one month.",
+      "You can ask us what personal data we hold about you, and ask us to correct it, delete it, restrict its use, or give it to you in a portable format. You can object to processing based on our legitimate interest. Write to {privacyEmail}; we answer within one month.",
       "If you think we handle your data wrongly, you can complain to the [Belgian Data Protection Authority](https://www.dataprotectionauthority.be)."
     ] },
     { "h2": "Changes to this policy", "paragraphs": [

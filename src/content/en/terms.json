@@ -14,7 +14,7 @@
     ] },
     { "h2": "3. Users and seats", "paragraphs": [
       "There are two seat types, as described on [pricing](page:pricing): full users, who sell, plan other people, approve, or work in finance or admin, and team members, who log their time and leave and work on their own projects and tasks. You keep each person's seat type accurate. The minimum is {minimumFullUsers} full users.",
-      "You are responsible for who you give access to and for what they do in implesta. Keep sign-in details secret, use two-factor authentication where the app requires it, and tell us at once at {email} if you suspect misuse."
+      "You are responsible for who you give access to and for what they do in implesta. Keep sign-in details secret, use two-factor authentication where the app requires it, and tell us at once at {supportEmail} if you suspect misuse."
     ] },
     { "h2": "4. Fees and payment", "paragraphs": [
       "Fees are those on our pricing page or in the proposal you accepted, in euro, excluding VAT. We invoice in advance, monthly or yearly. Invoices are payable by bank transfer within 30 days.",
@@ -39,7 +39,7 @@
     ] },
     { "h2": "9. Availability and support", "paragraphs": [
       "We do our best to keep implesta available and fast. We announce planned maintenance in advance and try to do it outside office hours. We don't currently guarantee a specific uptime, unless agreed in writing.",
-      "Support is by email at {email} on Belgian working days. We tell you without undue delay, and within 72 hours, if a security incident affects your data."
+      "Support is by email at {supportEmail} on Belgian working days. We tell you without undue delay, and within 72 hours, if a security incident affects your data."
     ] },
     { "h2": "10. Other services you connect", "paragraphs": [
       "implesta can connect to services from other companies, such as accounting tools, calendars, Slack and AI providers. Their own terms apply to them, and we are not responsible for their availability or for what they do with data you choose to send them. Suggestions from the optional AI features are suggestions: check them before relying on them."

@@ -4,7 +4,7 @@
   "primaryQuery": "implesta data processing agreement GDPR",
   "navLabel": "Data processing agreement",
   "h1": "Data processing agreement",
-  "lead": "Last updated [[publication date]]. This agreement is part of our [terms of service](page:terms). It applies automatically to every customer and sets out how we process personal data on your behalf, as Article 28 of the GDPR requires. If you need a signed copy, ask us at {email}.",
+  "lead": "Last updated [[publication date]]. This agreement is part of our [terms of service](page:terms). It applies automatically to every customer and sets out how we process personal data on your behalf, as Article 28 of the GDPR requires. If you need a signed copy, ask us at {privacyEmail}.",
   "sections": [
     { "h2": "1. Roles", "paragraphs": [
       "You, the customer, are the **controller** of the personal data you and your users put into implesta. {legalName} (\"implesta\", \"we\") is the **processor**: we process that data only to provide implesta to you.",
