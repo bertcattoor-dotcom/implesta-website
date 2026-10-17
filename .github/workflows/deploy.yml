@@ -1,0 +1,89 @@
+name: Deploy
+
+# Builds the site and deploys it to Firebase Hosting in the implesta-web project, signing in to
+# Google Cloud through Workload Identity Federation (no key; README, "Hosting"):
+#   - a pull request from a branch of this repository: a preview channel, pr-<number>, kept 7 days,
+#     its address in a comment on the pull request;
+#   - a push to main: the live site, only when `npm run check:launch` passes (no placeholder, no
+#     missing screenshot, fonts and booking link in place). Runs in the GitHub environment
+#     `production` (branch rule: main).
+# Pull requests from forks get no preview: GitHub gives them no sign-in token, and the job skips them.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+  id-token: write
+
+env:
+  # firebase-tools, pinned. Run with npx in CI only: not a dependency of the site.
+  FIREBASE_TOOLS: firebase-tools@15.32.1
+
+jobs:
+  preview:
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+      pull-requests: write
+    concurrency:
+      group: preview-${{ github.event.pull_request.number }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.2.2
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # The preview shows what the pull request changes, placeholders included: `check`, not `check:launch`.
+      - run: npm run check
+      - uses: google-github-actions/auth@c200f3691d83b41bf9bbd8638997a462592937ed # v2.1.13
+        with:
+          workload_identity_provider: ${{ vars.WEBSITE_WIF_PROVIDER }}
+          service_account: ${{ vars.WEBSITE_DEPLOY_SA }}
+      - name: Deploy the preview channel
+        id: deploy
+        run: |
+          npx -y "$FIREBASE_TOOLS" hosting:channel:deploy "pr-${{ github.event.pull_request.number }}" \
+            --project "${{ vars.WEBSITE_PROJECT_ID }}" --expires 7d --json --non-interactive > channel.json
+          url="$(node -e 'const r=require("./channel.json").result; console.log(Object.values(r)[0].url)')"
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+          echo "Preview: $url" >> "$GITHUB_STEP_SUMMARY"
+      - name: The preview's address on the pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr comment "${{ github.event.pull_request.number }}" --repo "${{ github.repository }}" --edit-last --create-if-none \
+            --body "Preview of this pull request (kept 7 days after the last push): ${{ steps.deploy.outputs.url }}"
+
+  live:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: production
+    concurrency:
+      group: live
+      cancel-in-progress: false
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.2.2
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      # The production build (with analytics) into dist/, and the launch checks on exactly that
+      # build. Any problem stops the deploy: the live site stays as it was.
+      - name: Production build and launch checks
+        run: npm run check:launch
+        env:
+          PLAUSIBLE: '1'
+      - uses: google-github-actions/auth@c200f3691d83b41bf9bbd8638997a462592937ed # v2.1.13
+        with:
+          workload_identity_provider: ${{ vars.WEBSITE_WIF_PROVIDER }}
+          service_account: ${{ vars.WEBSITE_DEPLOY_SA }}
+      - name: Deploy the live site
+        run: npx -y "$FIREBASE_TOOLS" deploy --only hosting --project "${{ vars.WEBSITE_PROJECT_ID }}" --non-interactive
