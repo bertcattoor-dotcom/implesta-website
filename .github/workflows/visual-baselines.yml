@@ -1,0 +1,53 @@
+# "Update visual baselines": makes the approved screenshots for the visual tests on the same
+# Linux runner CI uses, and pushes them to a new branch. Nothing changes on main: the
+# screenshots arrive through a pull request, where you review every image before merging.
+#
+# Run it from Actions › Update visual baselines › Run workflow, on main, the first time and
+# after every intended design change. The run's summary names the branch to open the PR from.
+
+name: Update visual baselines
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: visual-baselines
+  cancel-in-progress: false
+
+jobs:
+  baselines:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.2.2
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: 22
+      - run: npm ci
+      - run: npm run build
+      - run: npm run check
+      - run: npx playwright install --with-deps chromium
+      # Rewrites every screenshot. The other checks in the tests (no sideways scrolling, one h1,
+      # the slider) still run, so a broken page stops the run instead of becoming a baseline.
+      - run: npm run test:visual:update
+      - name: Push the screenshots to a new branch
+        env:
+          BRANCH: visual-baselines/run-${{ github.run_id }}
+        run: |
+          git add tests/visual.spec.js-snapshots
+          if git diff --cached --quiet; then
+            echo "The screenshots match the current baselines; nothing to push." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git commit -m "Visual baselines from run ${{ github.run_id }}"
+          git push origin "$BRANCH"
+          {
+            echo "Screenshots pushed to \`$BRANCH\` ($(git diff --name-only HEAD~1 | wc -l) files)."
+            echo
+            echo "Open the pull request: ${{ github.server_url }}/${{ github.repository }}/compare/main...$BRANCH"
+          } >> "$GITHUB_STEP_SUMMARY"

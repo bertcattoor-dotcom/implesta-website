@@ -60,9 +60,12 @@ quietly fall behind.
 
 ## Visual tests
 
-The first time, and after any intended design change, update the approved screenshots on Linux
-(CI or a Linux machine, since fonts render differently per system):
-`npm run test:visual:update`, then commit `tests/visual.spec.js-snapshots/`.
+The first time, and after any intended design change, update the approved screenshots with the
+**Update visual baselines** button: Actions › Update visual baselines › Run workflow, on `main`.
+It makes them on the same Linux runner CI uses (fonts render differently per system) and pushes
+them to a branch `visual-baselines/run-<id>`; the run's summary links to the pull request to open.
+Review every image in that pull request before merging. Locally on Linux,
+`npm run test:visual:update` does the same.
 
 ## Booking and analytics
 
