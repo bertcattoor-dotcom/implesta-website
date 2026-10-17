@@ -74,4 +74,53 @@ The first time, and after any intended design change, update the approved screen
 
 ## Hosting
 
-`firebase.json` serves `dist/` on Firebase Hosting with the site's URL rules. Any static host works.
+`firebase.json` serves `dist/` on Firebase Hosting with the site's URL rules, in the Google Cloud
+project `implesta-web` (organisation implesta.com). `.github/workflows/deploy.yml` deploys it:
+
+| When | Where | Gate |
+| --- | --- | --- |
+| A pull request (from a branch of this repository, not a fork) | Preview channel `pr-<number>`, kept 7 days; its address is commented on the pull request | `npm run check` |
+| A push to `main` | The live site | `PLAUSIBLE=1 npm run check:launch`: the production build itself, with no placeholder, missing screenshot, font or booking link left |
+
+GitHub signs in to Google Cloud through Workload Identity Federation: no key exists. Only this
+repository can sign in (checked by its numeric id and its owner's), from `main` or a pull request.
+
+### Setting it up (once, in Cloud Shell)
+
+1. The project, and the APIs:
+
+   ```bash
+   gcloud projects create implesta-web --organization=392013820808 --name="implesta website"
+   gcloud services enable firebase.googleapis.com firebasehosting.googleapis.com iam.googleapis.com \
+     iamcredentials.googleapis.com sts.googleapis.com cloudresourcemanager.googleapis.com --project implesta-web
+   ```
+
+2. Firebase, in the browser: <https://console.firebase.google.com> › **Create a project** › **Add
+   Firebase to a Google Cloud project** › `implesta-web` (no Google Analytics). Then **Hosting** ›
+   **Get started**, through to the end (the default site, `implesta-web.web.app`).
+3. The deploy account and Workload Identity Federation:
+
+   ```bash
+   P=implesta-web; N="$(gcloud projects describe $P --format='value(projectNumber)')"
+   gcloud iam service-accounts create github-deploy --project $P --display-name="GitHub Actions: implesta-website"
+   SA=github-deploy@$P.iam.gserviceaccount.com
+   for r in roles/firebasehosting.admin roles/serviceusage.apiKeysViewer; do
+     gcloud projects add-iam-policy-binding $P --member="serviceAccount:$SA" --role=$r --condition=None --format=none
+   done
+   gcloud iam workload-identity-pools create github --project $P --location=global --display-name="GitHub"
+   gcloud iam workload-identity-pools providers create-oidc github-actions --project $P --location=global \
+     --workload-identity-pool=github --display-name="GitHub Actions: implesta-website" \
+     --issuer-uri="https://token.actions.githubusercontent.com" \
+     --attribute-mapping="google.subject=assertion.sub,attribute.repository_id=assertion.repository_id,attribute.repository_owner_id=assertion.repository_owner_id,attribute.ref=assertion.ref,attribute.event_name=assertion.event_name" \
+     --attribute-condition="assertion.repository_id == '1416440552' && assertion.repository_owner_id == '263050880' && (assertion.ref == 'refs/heads/main' || assertion.event_name == 'pull_request')"
+   gcloud iam service-accounts add-iam-policy-binding $SA --project $P --role=roles/iam.workloadIdentityUser \
+     --member="principalSet://iam.googleapis.com/projects/$N/locations/global/workloadIdentityPools/github/attribute.repository_id/1416440552"
+   echo "WEBSITE_WIF_PROVIDER = projects/$N/locations/global/workloadIdentityPools/github/providers/github-actions"
+   ```
+
+4. GitHub, in this repository's **Settings**: **Environments** › `production` with the deployment
+   branch rule `main`; **Secrets and variables › Actions › Variables**: `WEBSITE_PROJECT_ID` =
+   `implesta-web`, `WEBSITE_DEPLOY_SA` = `github-deploy@implesta-web.iam.gserviceaccount.com`,
+   `WEBSITE_WIF_PROVIDER` = the line the last command printed.
+
+Then a pull request gets a preview, and `main` goes live once `npm run check:launch` passes.
