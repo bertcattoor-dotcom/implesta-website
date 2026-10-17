@@ -18,7 +18,7 @@
       "The website is served by Google Firebase Hosting, which processes technical data such as IP addresses to deliver the pages and protect them against abuse."
     ] },
     { "h2": "When you book a demo", "paragraphs": [
-      "We ask for your name, work email and team size, and note the page you came from, so we can prepare the call. Bookings are handled by Cal.com. [[Cal.com's data region: EU or US.]]",
+      "We ask for your name, work email and team size, and note the page you came from, so we can prepare the call. Bookings are handled by Cal.com, Inc., in the United States; the transfer is protected as described under transfers outside the EU below.",
       "We use these details to hold the demo and follow up on it, because you asked us to (steps before a possible contract) and because it is in our legitimate interest to follow up with companies that showed interest. If no contract follows, we delete your booking details within 12 months."
     ] },
     { "h2": "Our customers and their users", "paragraphs": [
@@ -47,7 +47,7 @@
       "**Resend:** sending the app's emails, such as invitations and notifications. EU region.",
       "**CARTO:** the background map tiles on the CRM map in the app. Your browser loads them directly, so CARTO receives your IP address.",
       "**Plausible Analytics:** website statistics, without personal data. EU.",
-      "**Cal.com:** demo bookings.",
+      "**Cal.com:** demo bookings. United States.",
       "**Slack:** product feedback you send us from inside the app, with your name and email."
     ] },
     { "h2": "Transfers outside the EU", "paragraphs": [
