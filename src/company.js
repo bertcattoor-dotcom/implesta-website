@@ -6,7 +6,7 @@
 
 export const company = {
   name: 'implesta',
-  legalName: 'CBEC', // Bert's management company runs implesta for the first customers (decided 17 Oct 2026),
+  legalName: 'CBEC', // Bert's management company runs implesta for the first customers (decided 17 Oct 2026)
   enterpriseNumber: '1005.361.844',
   address: {
     street: 'Melkerij 6',
