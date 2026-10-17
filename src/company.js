@@ -36,7 +36,7 @@ export const company = {
   // Booking: the Cal.com event implesta uses for demos, e.g. 'implesta/demo'.
   // While null, the demo page shows a placeholder instead of the calendar.
   booking: {
-    calLink: null,
+    calLink: 'implesta/demo', // cal.com/implesta/demo; the embed redirects to /demo/confirmed/ itself
     minutes: 30,
   },
 
