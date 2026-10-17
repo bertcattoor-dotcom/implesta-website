@@ -6,12 +6,12 @@
 
 export const company = {
   name: 'implesta',
-  legalName: '[[Registered legal name]]',
-  enterpriseNumber: '[[Enterprise number]]',
+  legalName: 'CBEC', // Bert's management company runs implesta for the first customers (decided 17 Oct 2026),
+  enterpriseNumber: '1005.361.844',
   address: {
-    street: '[[Street and number]]',
-    postalCode: '[[Postcode]]',
-    city: '[[City]]',
+    street: 'Melkerij 6',
+    postalCode: '9820',
+    city: 'Merelbeke-Melle',
     country: 'BE',
     countryName: 'Belgium',
   },

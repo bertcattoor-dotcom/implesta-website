@@ -7,7 +7,8 @@
   "lead": "Last updated [[publication date]]. These terms apply when a company uses implesta. Together with the order or proposal you accept and our data processing agreement, they form the whole agreement between us.",
   "sections": [
     { "h2": "1. Who these terms are between", "paragraphs": [
-      "These terms are between {legalName} (\"implesta\", \"we\"), enterprise number {enterpriseNumber}, and the company that subscribes to implesta (\"you\", the customer). implesta is a service for businesses only. The person who accepts these terms confirms they may do so on the company's behalf."
+      "These terms are between {legalName} (\"implesta\", \"we\"), enterprise number {enterpriseNumber}, and the company that subscribes to implesta (\"you\", the customer). implesta is a service for businesses only. The person who accepts these terms confirms they may do so on the company's behalf.",
+      "implesta is currently run by {legalName}. We may transfer this agreement to another company that takes over the implesta business, for example a company set up for implesta. We tell you at least 30 days in advance. Your terms, prices and data don't change because of the transfer."
     ] },
     { "h2": "2. The service", "paragraphs": [
       "implesta is a web application for sales, planning, timesheets and invoice preparation, as described on implesta.com. We improve it continuously. We may change or remove features, but we won't take away core functionality you rely on during a paid period without telling you at least 30 days in advance."
