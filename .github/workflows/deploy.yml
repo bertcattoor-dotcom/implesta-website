@@ -8,6 +8,7 @@ name: Deploy
 #     missing screenshot, fonts and booking link in place). Runs in the GitHub environment
 #     `production` (branch rule: main).
 # Pull requests from forks get no preview: GitHub gives them no sign-in token, and the job skips them.
+# Until the setup in README "Hosting" is done (the WEBSITE_* variables), both jobs are skipped.
 
 on:
   push:
@@ -24,7 +25,7 @@ env:
 
 jobs:
   preview:
-    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+    if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository && vars.WEBSITE_WIF_PROVIDER != ''
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -62,7 +63,7 @@ jobs:
             --body "Preview of this pull request (kept 7 days after the last push): ${{ steps.deploy.outputs.url }}"
 
   live:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main' && vars.WEBSITE_WIF_PROVIDER != ''
     runs-on: ubuntu-latest
     environment: production
     concurrency:
