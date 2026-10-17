@@ -11,6 +11,9 @@ const OUT = path.join(ROOT, 'public/fonts');
 const fonts = [
   ['node_modules/@fontsource-variable/inter/files/inter-latin-wght-normal.woff2', 'inter-latin-wght-normal.woff2'],
   ['node_modules/@fontsource/outfit/files/outfit-latin-600-normal.woff2', 'outfit-latin-600-normal.woff2'],
+  // The SIL Open Font License travels with the fonts.
+  ['node_modules/@fontsource-variable/inter/LICENSE', 'LICENSE-inter.txt'],
+  ['node_modules/@fontsource/outfit/LICENSE', 'LICENSE-outfit.txt'],
 ];
 
 fs.mkdirSync(OUT, { recursive: true });
