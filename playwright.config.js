@@ -1,9 +1,10 @@
 // Visual tests: every page at phone and desktop width, compared with the approved screenshot.
 // A change you didn't intend shows up as a failed test with a diff image.
 //
-// First run in CI (or after an intended design change): npm run test:visual:update, then
-// commit the updated files in tests/visual.spec.js-snapshots/. Snapshots must be made on the
-// same platform CI uses (Linux), because fonts render slightly differently per system.
+// First run, or after an intended design change: the "Update visual baselines" workflow
+// (.github/workflows/visual-baselines.yml) makes the files in tests/visual.spec.js-snapshots/ on
+// the platform CI uses (Linux, since fonts render slightly differently per system) and pushes
+// them to a branch for review.
 
 import { defineConfig } from '@playwright/test';
 
