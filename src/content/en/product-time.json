@@ -10,8 +10,7 @@
   "features": [
     { "title": "Log time in seconds", "text": "Each person logs hours against the projects they are planned on, from My Space, with a note when it helps.", "screen": { "id": "product-time-log", "describes": "Logging a day's hours in My Space" } },
     { "title": "Approve, then lock", "text": "Managers approve a week in one go. Once a period is approved and locked, past hours can't change under the invoice.", "screen": { "id": "product-time-approve", "describes": "Bulk approval and period locking" } },
-    { "title": "Clients approve from a link", "text": "Send the client a link to review and approve the hours before you invoice them, so the invoice is never the first time they see them.", "screen": { "id": "product-time-client", "describes": "Client reviewing hours from a link" } },
-    { "title": "Missing timesheets are chased for you", "text": "Late or missing timesheets are escalated to the person's manager, so nobody has to send reminders on Friday.", "screen": { "id": "product-time-escalation", "describes": "Missing timesheets escalated to a manager" } }
+    { "title": "Clients approve from a link", "text": "Send the client a link to review and approve the hours before you invoice them, so the invoice is never the first time they see them.", "screen": { "id": "product-time-client", "describes": "Client reviewing hours from a link" } }
   ],
   "signals": {
     "h2": "Who hears about it",
