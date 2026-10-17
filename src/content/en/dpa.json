@@ -58,9 +58,9 @@
       "**Separation:** each customer's data lives in its own database.",
       "**Location:** app and databases on Google Cloud in Belgium (europe-west1); backups in the EU.",
       "**Encryption:** data is encrypted in transit and at rest. Secrets such as integration credentials are additionally encrypted by implesta.",
-      "**Access:** access in the app follows each user's role; financial data only for people with finance access. [[Publish once it ships: two-factor authentication is required for administrators.]] Passwords are stored only as secure hashes.",
+      "**Access:** access in the app follows each user's role; financial data only for people with finance access. Two-factor authentication is required for administrators. Passwords are stored only as secure hashes.",
       "**Logging:** changes to clients, contacts, deals, proposals, invoices and profiles are recorded in an audit log that can't be edited.",
-      "**Backups:** [[nightly backups kept 14 days, with 7 days of point-in-time recovery, once configured in production]].",
+      "**Backups:** nightly backups kept 14 days, with 7 days of point-in-time recovery, stored in the EU; a standby database in a second zone.",
       "**Development:** code, the libraries it uses and the cloud setup are scanned continuously by Aikido Security; every change is reviewed and tested before release.",
       "**Staff access:** we don't access your data except to support you at your request, to keep the service secure, or when the law requires it."
     ] },
