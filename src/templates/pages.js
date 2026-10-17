@@ -34,7 +34,7 @@ const fill = (text, lang) => String(text)
   .replaceAll('{minutes}', String(company.booking.minutes))
   .replaceAll('{founder}', company.founder.name)
   .replaceAll('{hosting}', company.facts.hostingRegion)
-  .replaceAll('{accountingTools}', company.facts.accountingTools)
+  
   .replaceAll('{onboardingTime}', company.facts.onboardingTime)
   .replaceAll('{appLanguages}', company.facts.appLanguages)
   .replaceAll('{contract}', company.pricing.contract)

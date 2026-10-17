@@ -68,8 +68,7 @@
     { "h2": "Annex 3: Subprocessors", "paragraphs": [
       "**Google Cloud (Google Ireland Ltd):** hosting of the app and databases, file storage, sign-in infrastructure. Belgium (europe-west1) and EU.",
       "**Resend:** sending the app's emails. EU region.",
-      "**[[Geocoding provider]]:** turning client addresses into map positions.",
-      "**Only when you switch them on, or a user connects them:** Anthropic (meeting summary, United States), Google (project health rating, [[region]]), Google and Microsoft (calendar sync), Slack (your own workspace).",
+      "**Only when you switch them on, or a user connects them:** Google and Microsoft (calendar sync), Slack (your own workspace).",
       "We keep this list up to date and tell you before it changes, as section 6 describes."
     ] }
   ]

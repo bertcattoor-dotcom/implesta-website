@@ -150,7 +150,7 @@
     "h2": "Questions owners ask",
     "items": [
       { "q": "Where is our data stored?", "a": "{hosting}. More on the [security page](page:security)." },
-      { "q": "Does it work with our accounting tool?", "a": "implesta prepares the invoice; your accounting tool numbers, sends and books it. Connected today: {accountingTools}. Any other tool works through a manual route: mark the invoice as sent and type its number." },
+      { "q": "Does it work with our accounting tool?", "a": "Yes, whichever tool you use. implesta prepares the invoice; your accounting tool numbers, sends and books it. You then mark the invoice as sent in implesta and type its number." },
       { "q": "How long is the contract?", "a": "{contract}." },
       { "q": "What happens to our current data?", "a": "We import clients, contacts, open deals, people and rates from our spreadsheet templates, as part of onboarding. Moving history out of another system is quoted separately. Switching takes {onboardingTime}." },
       { "q": "Can my team use it in Dutch or French?", "a": "{appLanguages}." }

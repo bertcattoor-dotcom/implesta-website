@@ -65,9 +65,8 @@ export const company = {
     // Only what is decided: app and database in europe-west1. Sign-in (Firebase) and email
     // (Resend, EU region) are listed as subprocessors, not covered by this sentence.
     hostingRegion: 'The app and its database run on Google Cloud in Belgium (europe-west1)', // full sentence on its own
-    accountingTools: '[[accounting tools connected at launch]]',
     onboardingTime: '2 to 4 weeks', // with the included onboarding; migrations take longer
-    appLanguages: '[[Which languages the app itself is available in]]', // full sentence on its own
+    appLanguages: 'Not yet. The app is in English today', // full sentence on its own
   },
 };
 

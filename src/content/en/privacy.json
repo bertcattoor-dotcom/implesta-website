@@ -31,25 +31,23 @@
     ] },
     { "h2": "Optional features that send data to other services", "paragraphs": [
       "These features are off until a customer's administrator switches them on, or until you connect your own account. The Admin settings in the app show which service receives which data.",
-      "**Meeting summary:** meeting notes and action items are sent to Anthropic (Claude) to draft a summary.",
-      "**Project health rating:** a project manager's status notes and the project's budget, hours and dates are sent to Google (Gemini) to suggest a rating. [[Region, once moved to Vertex AI in the EU.]]",
       "**Calendar sync:** if you connect your Google or Microsoft calendar, implesta exchanges your bookings with that calendar. See the section on calendar data below.",
       "**Slack:** if a customer connects its own Slack workspace, implesta posts the notifications that customer chooses there, such as leave requests."
     ] },
     { "h2": "Google and Microsoft calendar data", "paragraphs": [
-      "When you connect a calendar, implesta [[exact access: which calendar data implesta reads and writes, matching the scopes requested]]. We use this data only to keep your implesta bookings and your calendar in step.",
-      "We don't use calendar data for advertising, don't sell it, don't use it to train AI models, and don't transfer it to others except as needed to provide this feature, for security, or when the law requires it. People at implesta don't read it unless you ask us to for support. You can disconnect your calendar at any time in your profile; implesta then stops syncing and deletes the connection details.",
-      "implesta's use and transfer of information received from Google APIs to any other app will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements."
+      "When you connect your calendar, implesta reads the start and end times of your events, whether you are busy, and whether you are out of office, so that your available time for project planning is correct. It reads event titles only if you choose to show them in implesta. It never changes your own events.",
+      "implesta writes only to one separate calendar it creates in your account, called \"implesta\", which shows your planned project days. For a Google calendar, implesta asks only for these permissions: to see your events (calendar.events.readonly), to manage the calendars it creates itself (calendar.app.created), and your email address to identify the account.",
+      "The access tokens are stored encrypted. Event data is kept only for the period being synchronised. When you disconnect your calendar, or your account is deleted, implesta deletes the connection, the synchronised event data and the \"implesta\" calendar it created.",
+      "We use calendar data only to calculate your available time for project planning. We don't use it for advertising, don't sell it, don't use it to train AI models, and don't transfer it to others except as needed to provide this feature, for security, or when the law requires it. People at implesta don't read it unless you ask us to for support. You can disconnect your calendar at any time in your profile.",
+      "implesta's use and transfer to any other app of information received from Google APIs will adhere to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements."
     ] },
     { "h2": "Who else receives personal data", "paragraphs": [
       "We use these service providers. Each processes data only for us, under a written agreement.",
       "**Google Cloud:** hosting of the app, its databases and this website. App and databases in Belgium (europe-west1).",
       "**Resend:** sending the app's emails, such as invitations and notifications. EU region.",
-      "**[[Geocoding provider]]:** turning client addresses into map positions for the CRM map.",
       "**Plausible Analytics:** website statistics, without personal data. EU.",
       "**Cal.com:** demo bookings.",
-      "**Slack:** product feedback you send us from inside the app, with your name and email.",
-      "**Anthropic and Google (Gemini):** only if the optional AI features above are switched on."
+      "**Slack:** product feedback you send us from inside the app, with your name and email."
     ] },
     { "h2": "Transfers outside the EU", "paragraphs": [
       "Some of these providers may process data outside the European Economic Area, for example in the United States. Where they do, the transfer is protected by the European Commission's standard contractual clauses or by an adequacy decision, such as the EU–US Data Privacy Framework."
