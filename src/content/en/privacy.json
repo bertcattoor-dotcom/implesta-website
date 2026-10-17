@@ -45,6 +45,7 @@
       "We use these service providers. Each processes data only for us, under a written agreement.",
       "**Google Cloud:** hosting of the app, its databases and this website. App and databases in Belgium (europe-west1).",
       "**Resend:** sending the app's emails, such as invitations and notifications. EU region.",
+      "**CARTO:** the background map tiles on the CRM map in the app. Your browser loads them directly, so CARTO receives your IP address.",
       "**Plausible Analytics:** website statistics, without personal data. EU.",
       "**Cal.com:** demo bookings.",
       "**Slack:** product feedback you send us from inside the app, with your name and email."
